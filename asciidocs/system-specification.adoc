@@ -48,8 +48,6 @@ Zu entwickeln ist ein Platform welche:
 
 ==== Funktionale Anforderungen
 
-
-
 ==== Nichtfunktionale Anforderungen
 
 * Benutzerfreundlichkeit
@@ -78,7 +76,6 @@ Nach der abgabe bekommen sie ein Feedback von dem jeweiligen Lehrer.
 === Rahmenbedingungen
 Noch nicht vorgegeben
 
-== Entwurf "Wie mache ich es"
 === Systemarchitektur
 === ...
 
