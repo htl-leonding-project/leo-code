@@ -1,5 +1,5 @@
-= My Project
-firstname lastname
+= LeoCode
+Besic Benjamin, Ignjatovic David, Raid Yimne, Spasenovic Bozidar
 1.0.0, yyyy-mm-dd: Some notes
 ifndef::imagesdir[:imagesdir: images]
 //:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
@@ -20,33 +20,48 @@ endif::backend-html5[]
 // print the toc here (not at the default position)
 //toc::[]
 
-== Pflichtenheft "Was mache ich"
-
+== Pflichtenheft
 
 === Ausgangssituation
 
-Die HTL Leonding ist eine HTL im oö. Zentralraum mit ca. 1000 Schülern und den Fachabteilungen Medientechnik, Informatik, ....
+Die HTL Leonding ist eine HTL mit ungefähr 1000 Schülern und den Abteilungen Medientechnik, Informatik, Medizintechnik sowie Elektronik.
 
 === Istzustand
-----
-Beschreibung der speziellen Situation zB in der Abteilung
-----
+
+In allen Zweigen spielt das Programmieren eine mehr oder weniger große Rolle, besonders in den Medientechnik bzw. Informatik Zweigen.
+
 === Problemstellung
+
+Viele Schüler haben aber durch den Lehrplan nicht genug praktische Übung im Unterricht und kennen sich meistens nicht bei den Hausübungen aus. +
+Noch dazu haben die ersten Klassen öfters Probleme mit den IDE's. Meistens haben sie keinen Zugriff oder irgendetwas hat nicht funktioniert.
+
 === Aufgabenstellung
+
+Zu entwickeln ist ein Platform welche:
+
+* Es Schüler ermöglicht C# Code-Beispiele zu Programmieren
+
+* Schüler auf Ihre Abgaben Feedback bzw. die Lösung bereitstellt
+
+* Dem Lehrpersonal ermöglicht Beispiele inklusive Tests zu erstellen
+
+
 ==== Funktionale Anforderungen
 
-[plantuml,wireframe,png]
-----
-@startsalt
-{
-Name         | "                 "
-Modifiers:   | { (X) public | () default | () private | () protected
-	            [] abstract | [] final   | [] static }
-Superclass:  | { "java.lang.Object " | [Browse...] }
-}
-@endsalt
-----
-==== Nichtfunktionale Anforderungen (NFA)
+
+
+==== Nichtfunktionale Anforderungen
+
+* Benutzerfreundlichkeit
+
+* Verlässlichkeit
+
+* Effizienz
+
+* Performance
+
+* Wartbarkeit
+
 === Ziele
 === Mengengerüst
 === Rahmenbedingungen
