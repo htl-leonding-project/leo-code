@@ -63,9 +63,20 @@ Zu entwickeln ist ein Platform welche:
 * Wartbarkeit
 
 === Ziele
+
+* Schüler bekommen eine Vielfalt von Beispielen inklusive Unterrichtsbeispielen bereitgestellt.
+
+* Eine verstärkte Koordination des Unterrichts in den jeweiligen Schulstufen und auch zwischen Parallelklassen.
+
+* Das Übermitteln von Programmiermethoden an die Schüler wird den Lehrer erleichtert.
+
 === Mengengerüst
+Schüler bekommen eine Auswahl von C# Code Beispielen, die sie programmieren können.
+Das Programm wird gleichzeitig kompiliert.
+Nach der abgabe bekommen sie ein Feedback von dem jeweiligen Lehrer.
+
 === Rahmenbedingungen
-zB Vorgaben vom Auftraggeber
+Noch nicht vorgegeben
 
 == Entwurf "Wie mache ich es"
 === Systemarchitektur
