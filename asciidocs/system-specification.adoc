@@ -28,7 +28,8 @@ Die HTL Leonding ist eine HTL mit ungefähr 1000 Schülern und den Abteilungen M
 
 === Istzustand
 
-In allen Zweigen spielt das Programmieren eine mehr oder weniger große Rolle, besonders in den Medientechnik bzw. Informatik Zweigen.
+In allen Zweigen spielt das praktische Programmieren eine mehr oder weniger große Rolle, besonders in den Medientechnik bzw. Informatik Zweigen.
+Bei den ersten Klassen sind meistens viele Schüler dabei, die noch nie Erfahrung mit Programmieren hatten.
 
 === Problemstellung
 
@@ -47,6 +48,27 @@ Zu entwickeln ist ein Platform welche:
 
 
 ==== Funktionale Anforderungen
+[plantuml,ucd,png]
+----
+@startuml
+left to right direction
+:Lehrer:
+:Student:
+
+rectangle LeoCode{
+Student --> (login)
+Lehrer --> (login)
+
+(login) .> (anzeigen von erledigten Aufgaben)
+        (login) .> (Aufgaben programmieren)
+        (login) .> (Aufgaben sehen)
+
+
+
+}
+
+@enduml
+----
 
 
 
