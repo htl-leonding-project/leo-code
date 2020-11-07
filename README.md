@@ -13,7 +13,7 @@ LeoCode is ein Webanwendung die für Schüler der HTL Leonding entwickelt wird, 
 
 ## Dokumente
 
-[Index](https://2021-4ahif-syp.github.io/assigment02-system-specification-leocode/index.html)
+[Index](https://2021-4ahif-syp.github.io/assigment02-system-specification-leocode/docs/index.html)
 
 ## GH-pages
 
