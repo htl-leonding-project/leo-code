@@ -23,4 +23,4 @@ ifndef::imagesdir[:imagesdir: images]
 
 == Index
 
-<<Index.adoc#, Zurück zum Index>>
+<<index.adoc#, Zurück zum Index>>

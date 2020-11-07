@@ -152,4 +152,4 @@ mit User-Stories (definiert in YouTrack)
 
 == Index
 
-<<Index.adoc#, Zurück zum Index>>
+<<index.adoc#, Zurück zum Index>>

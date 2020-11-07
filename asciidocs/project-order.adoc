@@ -92,4 +92,4 @@ Während dem fünften Schuljahr
 
 == Index
 
-<<Index.adoc#, Zurück zum Index>>
+<<index.adoc#, Zurück zum Index>>
