@@ -48,30 +48,32 @@ Zu entwickeln ist ein Platform welche:
 
 
 ==== Funktionale Anforderungen
-[plantuml,ucd,png]
+[plantuml]
 ----
+
 @startuml
+
 left to right direction
-:Lehrer:
 :Student:
-
+:Teacher:
 rectangle LeoCode{
-Student --> (login)
-Lehrer --> (login)
 
-(login) .> (anzeigen von erledigten Aufgaben)
-        (login) .> (Aufgaben programmieren)
-        (login) .> (Aufgaben sehen)
+Student -up- (login as student)
+Student -up- (see all coding tasks/exams)
+Student -up- (do coding task/exam)
+Student -up- (see feedback)
 
+Teacher -down- (login as teacher)
+Teacher -down- (see all coding tasks/exams)
+Teacher -down- (edit coding tasks/exams)
+Teacher -down- (give feedback)
+Teacher -down- (publish coding task/exam)
 
 
 }
 
 @enduml
 ----
-
-
-
 ==== Nichtfunktionale Anforderungen
 
 * Benutzerfreundlichkeit
