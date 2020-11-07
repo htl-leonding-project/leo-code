@@ -13,9 +13,7 @@ LeoCode is ein Webanwendung die für Schüler der HTL Leonding entwickelt wird, 
 
 ## Dokumente
 
-* <<project-order.adoc#, Project Order>> (Projektauftrag)
-* <<system-specification.adoc#, System Specification>> (Pflichtenheft)
-* <<minutes-of-meeting.adoc#, Minutes of meetings>> (Minutes of meetings)
+[Index](https://2021-4ahif-syp.github.io/assigment02-system-specification-leocode/index.html)
 
 ## GH-pages
 
