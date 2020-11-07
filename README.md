@@ -1,5 +1,11 @@
 # LeoCode
 
+## Anmerkung 
+
+Das ist nicht der Index, sondern die README! \
+[Index](https://2021-4ahif-syp.github.io/assigment02-system-specification-leocode/docs/index.html)
+ist hier!
+
 ## Projektbeschreibung
 
 LeoCode is ein Webanwendung die für Schüler der HTL Leonding entwickelt wird, um C# Coding zu üben.
@@ -10,10 +16,6 @@ LeoCode is ein Webanwendung die für Schüler der HTL Leonding entwickelt wird, 
 * 13DI
 * 18YR
 * 23BS
-
-## Dokumente
-
-[Index](https://2021-4ahif-syp.github.io/assigment02-system-specification-leocode/docs/index.html)
 
 ## GH-pages
 
