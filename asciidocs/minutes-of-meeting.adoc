@@ -20,3 +20,7 @@ ifndef::imagesdir[:imagesdir: images]
 == Vereinbarungen und Entscheidungen
 
 *
+
+== Index
+
+<<Index.adoc#, Zurück zum Index>>

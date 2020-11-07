@@ -1,7 +1,7 @@
-rm -rf -v gh-pages/revealjs;
+rm -rf -v docs/revealjs;
 
-rm -rf -v gh-pages/*.adoc;
+rm -rf -v docs/*.adoc;
 
-rm -v gh-pages/docinfo.html;
+rm -v docs/docinfo.html;
 
 echo "Done";

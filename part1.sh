@@ -1,8 +1,8 @@
-BUILD_DIR="gh-pages"
+BUILD_DIR="docs"
 
 rm -rf -v $BUILD_DIR;
 
-mkdir -p gh-pages;
+mkdir -p docs;
 
 cp -r -p -v asciidocs/docinfo.html $BUILD_DIR;
 

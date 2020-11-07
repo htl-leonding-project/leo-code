@@ -150,3 +150,6 @@ mit User-Stories (definiert in YouTrack)
 * link:minutes-of-meeting[Protokollvorlage]
 * link:demo.html[Demo]
 
+== Index
+
+<<Index.adoc#, Zurück zum Index>>

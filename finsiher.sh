@@ -1,4 +1,4 @@
-cd gh-pages;
+cd docs;
 
 git add .;
 
