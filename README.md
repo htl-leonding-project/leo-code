@@ -3,7 +3,7 @@
 ## Anmerkung 
 
 Das ist nicht der Index, sondern die README! \
-[Index](https://htl-leonding-project.github.io/leo-code/index.html)
+[Index](https://htl-leonding-project.github.io/leo-code)
 ist hier!
 
 ## Projektbeschreibung
