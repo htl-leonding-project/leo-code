@@ -3,7 +3,7 @@
 ## Anmerkung 
 
 Das ist nicht der Index, sondern die README! \
-[Index](https://2021-4ahif-syp.github.io/assigment02-system-specification-leocode/docs/index.html)
+[Index](https://htl-leonding-project.github.io/leo-code/index.html)
 ist hier!
 
 ## Projektbeschreibung
