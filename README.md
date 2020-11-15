@@ -2,9 +2,9 @@
 
 ## Anmerkung 
 
-Das ist nicht der Index, sondern die README! \
+Github Pages:
 [Index](https://htl-leonding-project.github.io/leo-code)
-ist hier!
+
 
 ## Projektbeschreibung
 
