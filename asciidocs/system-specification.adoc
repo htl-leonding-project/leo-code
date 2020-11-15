@@ -28,7 +28,7 @@ Die HTL Leonding ist eine HTL mit ungefähr 1000 Schülern und den Abteilungen M
 
 === Istzustand
 
-In allen Zweigen spielt das praktische Programmieren eine mehr oder weniger große Rolle, besonders in den Medientechnik bzw. Informatik Zweigen.
+In allen Zweigen spielt das praktische Programmieren eine mehr oder weniger große Rolle, besonders in den Medientechnik- bzw. Informatik-Zweigen.
 Bei den ersten Klassen sind meistens viele Schüler dabei, die noch nie Erfahrung mit Programmieren hatten.
 
 === Problemstellung
@@ -74,6 +74,33 @@ Teacher -down- (publish coding task/exam)
 
 @enduml
 ----
+
+===== Use-Cases von der Schülerperspektive:
+Der Schüler hat die Möglichkeiten:
+
+    * sich anzumelden
+
+    * Aufgaben und Tests zu sehen
+
+    * Aufgaben und Tests zu absolvieren
+
+    * Feedback zu den Aufgaben und Tests anzuschauen
+
+Ein Schüler hat die Möglichkeit sich anzumelden. Der Schüler hat die Möglichkeiten sich seine Aufgaben anzuschauen und die Aufgaben zu erledigen. Noch dazu hat der Schüler auch Zugriff auf die vom Professor vorgefertigten Tests, die er auch absolvieren kann. Zu den jeweiligen Aufgaben oder Tests bekommt jeder Schüler ein kleines Feedback, welches sich der Schüler jederzeit durchlesen kann.
+
+===== Use-Cases von der Lehrerperspektive:
+Der Professor hat die Möglichkeiten:
+
+    * sich anzumelden
+
+    * Aufgaben und Tests zu veröffentlichen.
+
+    * Aufgaben und Tests zu korrigieren
+
+    * Ein Feedback zu den Aufgaben und Tests hinterlassen
+
+Ein Professor hat die Möglichkeit sich anzumelden. Falls der Professor einen Test für eine Klasse erstellt hat, kann er diesen ebenfalls veröffentlichen. Nachdem der Schüler die Tests und Aufgaben absolviert hat, ist der Professor in der Lage sich diese anzuschauen, zu korrigieren und jeweils ein Feedback hinterlassen.
+
 ==== Nichtfunktionale Anforderungen
 
 * Benutzerfreundlichkeit
