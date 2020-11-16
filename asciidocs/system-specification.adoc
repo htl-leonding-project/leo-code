@@ -40,11 +40,11 @@ Noch dazu haben die ersten Klassen öfters Probleme mit den IDE's. Meistens habe
 
 Zu entwickeln ist ein Platform welche:
 
-* Es ermöglicht Schülern C# Code-Beispiele zu Programmieren
+* es ermöglicht Schülern Code-Beispiele zu Programmieren (Java,C#)
 
-* Schüler auf Ihre Abgaben Feedback bzw. die Lösung bereitstellt
+* Schüler zu ihren Abgaben Feedback bzw. die Lösung bereitstellt
 
-* Dem Lehrpersonal ermöglicht Beispiele inklusive Tests zu erstellen
+* dem Lehrpersonal ermöglicht Beispiele inklusive Tests zu erstellen
 
 
 ==== Funktionale Anforderungen
@@ -59,17 +59,15 @@ left to right direction
 :Teacher:
 rectangle LeoCode{
 
-Student -up- (login as student)
-Student -up- (see all coding tasks/exams)
-Student -up- (do coding task/exam)
-Student -up- (see feedback)
+Teacher -- (publish coding tasks)
+Teacher -- (see current coding tasks)
+Teacher -- (edit coding tasks)
+(edit coding tasks) .> (edit/create unit tests) : <<include>>
 
-Teacher -down- (login as teacher)
-Teacher -down- (see all coding tasks/exams)
-Teacher -down- (edit coding tasks/exams)
-Teacher -down- (give feedback)
-Teacher -down- (publish coding task/exam)
-
+Student -- (manage own coding tasks)
+Student -- (do coding task)
+Student -- (see unit test feedback)
+Student -- (publish task feedback to teacher)
 
 }
 
