@@ -38,11 +38,11 @@ Noch dazu haben die ersten Klassen öfters Probleme mit den IDE's. Meistens habe
 
 === Aufgabenstellung
 
-Zu entwickeln ist ein Platform welche:
+Zu entwickeln ist ein Plattform welche:
 
-* es ermöglicht Schülern Code-Beispiele zu Programmieren (Java,C#)
+* es ermöglicht Schülern Code-Beispiele zu programmieren (Java,C#)
 
-* Schüler zu ihren Abgaben Feedback bzw. die Lösung bereitstellt
+* Schülern zu ihren Abgaben Feedback bzw. die Lösung bereitstellt
 
 * dem Lehrpersonal ermöglicht Beispiele inklusive Tests zu erstellen
 
