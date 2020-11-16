@@ -114,8 +114,9 @@ Ein Professor hat die Möglichkeit sich anzumelden. Falls der Professor einen Te
 
 * Wartbarkeit
 
-==== Sequenz Diagramm
-image::sequence.jpeg[]
+==== Process-diagram for the student and teacher
+image::Process-diagram-Student.jpeg[]
+image::Process-diagram-teacher.jpeg[]
 
 === Ziele
 
