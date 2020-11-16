@@ -38,13 +38,15 @@ Noch dazu haben die ersten Klassen öfters Probleme mit den IDE's. Meistens habe
 
 === Aufgabenstellung
 
-Zu entwickeln ist ein Plattform welche:
+Zu entwickeln ist eine Plattform die folgendes kann:
 
-* es ermöglicht Schülern Code-Beispiele zu programmieren (Java,C#)
+* Die Plattform gibt den Schülern die Möglichkeit verschiedener Programmiersprachen mit einfachen Übungen zu üben
 
-* Schülern zu ihren Abgaben Feedback bzw. die Lösung bereitstellt
+* Die Plattform stellt den Schülern die Lösungen der Aufgaben her.
 
-* dem Lehrpersonal ermöglicht Beispiele inklusive Tests zu erstellen
+* Die Plattform gibt den Schülern ein Feedback zu den gelösten Aufgaben.
+
+* Die Plattform ermöglicht den Lehrern Aufgaben, Quizzes und/oder Tests zu erstellen und diese dann den Schülern bereitzustellen.
 
 
 ==== Funktionale Anforderungen
