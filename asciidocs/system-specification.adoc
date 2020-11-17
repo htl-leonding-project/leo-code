@@ -43,7 +43,7 @@ Zu entwickeln ist eine Plattform, die Folgendes kann:
 
 * Die Plattform stellt den Schülern die Lösungen der Aufgaben zur Verfügung.
 
-* Die Plattform gibt den Schülern ein Feedback zu den gelösten Aufgaben mit Hilfe von Unit Tests.
+* Die Plattform gibt den Schülern ein Feedback zu den gelösten Aufgaben mithilfe von Unit Tests.
 
 * Die Plattform ermöglicht den Lehrern Aufgaben, Quizzes und/oder Tests zu erstellen und diese dann den Schülern bereitzustellen.
 
