@@ -130,8 +130,10 @@ image::Process-diagram-teacher.jpeg[]
 * Das Vermitteln von Programmiermethoden an die Schüler wird dem Lehrer erleichtert.
 
 === Mengengerüst
-Hunderte von Schülern bekommen eine Auswahl von C# Code Beispielen, die sie programmieren können.
-Das Programm wird gleichzeitig kompiliert und mehrere Unit Tests werden ausgeführt.
+Hunderte von Schülern bekommen eine Auswahl von Programmierbeispielen, die sie absolvieren können.
+Diese Aufgaben werden gleichzeitig kompiliert und mit Unit Tests getestet.
+Die Aufgaben und Tests werden in einer Datenbank gespeichert.
+Die WebApp läuft über einen RestClient.
 
 === Rahmenbedingungen
 Noch nicht vorgegeben
@@ -176,6 +178,16 @@ n4 .-l-> GuiApi : use
 @enduml
 ----
 == Projekthandbuch "Organisatorische Rahmenbedingungen"
+
+== Meilensteine
+|===
+|Pflichtenheft + Utrack SCRUM Organisation
+|C# Übungen schreiben/implementieren + Unit Tests
+|Jenkins Pipeline C#
+|RestService mit Quarkus
+|GUI
+|Testen (mit Schülern)
+|===
 
 === GANTT-Diagramm
 
