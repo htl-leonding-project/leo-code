@@ -37,7 +37,7 @@ Viele Schüler haben aber durch den Lehrplan nicht genug praktische Übung im Un
 
 === Aufgabenstellung
 
-Zu entwickeln ist eine Plattform die folgendes kann:
+Zu entwickeln ist eine Plattform, die Folgendes kann:
 
 * Die Plattform gibt den Schülern die Möglichkeit verschiedene Programmiersprachen mit einfachen Übungen zu üben.
 
@@ -96,15 +96,14 @@ Der Professor hat die Möglichkeiten:
 
 * sich anzumelden
 
-* Aufgaben und Tests zu veröffentlichen.
+* Aufgaben und Tests zu veröffentlichen/bearbeiten.
 
-* Aufgaben und Tests einzusehen
+* Aufgaben und Tests einzusehen (auf Freigabe des Schülers)
 
-* Ein Feedback zu den Aufgaben und Tests hinterlassen
 
 Ein Professor hat die Möglichkeit sich anzumelden.
 Falls der Professor einen Test für eine Klasse erstellt hat, kann er diesen ebenfalls veröffentlichen. +
-Nachdem der Schüler die Tests und Aufgaben absolviert hat, ist der Professor in der Lage es sich anzuschauen falls der Schüler es für den Lehrer veröffentlicht.
+Nachdem der Schüler die Tests und Aufgaben absolviert hat, ist der Professor in der Lage sich diese anzuschauen, falls der Schüler es für den Lehrer freigibt.
 
 ==== Nichtfunktionale Anforderungen
 
