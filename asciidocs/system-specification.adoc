@@ -1,6 +1,6 @@
 = LeoCode
 Besic Benjamin, Ignjatovic David, Raid Yimne, Spasenovic Bozidar
-1.0.0, yyyy-mm-dd: Some notes
+1.0.0, 2020-11-17: Some notes
 ifndef::imagesdir[:imagesdir: images]
 //:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
 :sourcedir: ../src/main/java
@@ -29,22 +29,21 @@ Die HTL Leonding ist eine HTL mit ungefähr 1000 Schülern und den Abteilungen M
 === Istzustand
 
 In allen Zweigen spielt das praktische Programmieren eine mehr oder weniger große Rolle, besonders in den Medientechnik- bzw. Informatik-Zweigen.
-Bei den ersten Klassen sind meistens viele Schüler dabei, die noch nie Erfahrung mit Programmieren hatten.
+Bei den ersten Klassen sind meistens viele Schüler dabei, die noch keine Erfahrung mit Programmieren hatten.
 
 === Problemstellung
 
-Viele Schüler haben aber durch den Lehrplan nicht genug praktische Übung im Unterricht und kennen sich meistens nicht bei den Hausübungen aus. +
-Noch dazu haben die ersten Klassen öfters Probleme mit den IDE's. Meistens haben sie keinen Zugriff oder irgendetwas hat nicht funktioniert.
+Viele Schüler haben aber durch den Lehrplan nicht genug praktische Übung im Unterricht und kennen sich meistens nicht bei den Hausübungen aus. Noch dazu haben die ersten Klassen öfters Probleme mit den IDE's. Meistens haben sie keinen Zugriff oder andere Probleme.
 
 === Aufgabenstellung
 
 Zu entwickeln ist eine Plattform die folgendes kann:
 
-* Die Plattform gibt den Schülern die Möglichkeit verschiedener Programmiersprachen mit einfachen Übungen zu üben
+* Die Plattform gibt den Schülern die Möglichkeit verschiedene Programmiersprachen mit einfachen Übungen zu üben.
 
-* Die Plattform stellt den Schülern die Lösungen der Aufgaben her.
+* Die Plattform stellt den Schülern die Lösungen der Aufgaben zur Verfügung.
 
-* Die Plattform gibt den Schülern ein Feedback zu den gelösten Aufgaben.
+* Die Plattform gibt den Schülern ein Feedback zu den gelösten Aufgaben mit Hilfe von Unit Tests.
 
 * Die Plattform ermöglicht den Lehrern Aufgaben, Quizzes und/oder Tests zu erstellen und diese dann den Schülern bereitzustellen.
 
@@ -79,28 +78,33 @@ Student -- (publish task feedback to teacher)
 ===== Use-Cases von der Schülerperspektive:
 Der Schüler hat die Möglichkeiten:
 
-    * sich anzumelden
+* sich anzumelden (nicht zwingend)
 
-    * Aufgaben und Tests zu sehen
+* Aufgaben und Tests zu sehen
 
-    * Aufgaben und Tests zu absolvieren
+* Aufgaben und Tests zu absolvieren
 
-    * Feedback zu den Aufgaben und Tests anzuschauen
+* Feedback zu den Aufgaben und Tests anzuschauen (Unit Tests)
 
-Ein Schüler hat die Möglichkeit sich anzumelden. Der Schüler hat die Möglichkeiten sich seine Aufgaben anzuschauen und die Aufgaben zu erledigen. Noch dazu hat der Schüler auch Zugriff auf die vom Professor vorgefertigten Tests, die er auch absolvieren kann. Zu den jeweiligen Aufgaben oder Tests bekommt jeder Schüler ein kleines Feedback, welches sich der Schüler jederzeit durchlesen kann.
+Ein Schüler hat die Möglichkeit sich anzumelden, aber eine Verwendung ohne Anmeldung ist auch möglich. +
+Der Schüler hat die Möglichkeiten sich seine Aufgaben anzuschauen und die Aufgaben zu erledigen.
+Noch dazu hat der Schüler auch Zugriff auf die vom Professor vorgefertigten Tests, die er auch absolvieren kann. +
+Zu den jeweiligen Aufgaben oder Tests bekommt jeder Schüler ein kleines Feedback, welches sich der Schüler jederzeit durchlesen kann.
 
 ===== Use-Cases von der Lehrerperspektive:
 Der Professor hat die Möglichkeiten:
 
-    * sich anzumelden
+* sich anzumelden
 
-    * Aufgaben und Tests zu veröffentlichen.
+* Aufgaben und Tests zu veröffentlichen.
 
-    * Aufgaben und Tests zu korrigieren
+* Aufgaben und Tests einzusehen
 
-    * Ein Feedback zu den Aufgaben und Tests hinterlassen
+* Ein Feedback zu den Aufgaben und Tests hinterlassen
 
-Ein Professor hat die Möglichkeit sich anzumelden. Falls der Professor einen Test für eine Klasse erstellt hat, kann er diesen ebenfalls veröffentlichen. Nachdem der Schüler die Tests und Aufgaben absolviert hat, ist der Professor in der Lage sich diese anzuschauen, zu korrigieren und jeweils ein Feedback hinterlassen.
+Ein Professor hat die Möglichkeit sich anzumelden.
+Falls der Professor einen Test für eine Klasse erstellt hat, kann er diesen ebenfalls veröffentlichen. +
+Nachdem der Schüler die Tests und Aufgaben absolviert hat, ist der Professor in der Lage es sich anzuschauen falls der Schüler es für den Lehrer veröffentlicht.
 
 ==== Nichtfunktionale Anforderungen
 
@@ -124,12 +128,11 @@ image::Process-diagram-teacher.jpeg[]
 
 * Eine verstärkte Koordination des Unterrichts in den jeweiligen Schulstufen und auch zwischen Parallelklassen.
 
-* Das Übermitteln von Programmiermethoden an die Schüler wird den Lehrer erleichtert.
+* Das Vermitteln von Programmiermethoden an die Schüler wird dem Lehrer erleichtert.
 
 === Mengengerüst
 Hunderte von Schülern bekommen eine Auswahl von C# Code Beispielen, die sie programmieren können.
-Das Programm wird gleichzeitig kompiliert.
-Nach der Abgabe bekommen sie ein Feedback von dem jeweiligen Lehrer.
+Das Programm wird gleichzeitig kompiliert und mehrere Unit Tests werden ausgeführt.
 
 === Rahmenbedingungen
 Noch nicht vorgegeben
