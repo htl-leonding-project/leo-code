@@ -1,0 +1,27 @@
+= LeoCode
+Benjamin Besic, David Ignjatovic, Yimne Raid, Bozidar Spasenovic
+1.0.0, yyyy-mm-dd: Some notes
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+== Projektbeschreibung
+
+LeoCode is ein Webanwendung die für Schüler der HTL Leonding entwickelt wird, um C# Coding zu üben.
+
+== Team
+
+* 03BB
+* 13DI
+* 18YR
+* 23BS
+
+== Dokumente
+
+* <<project-order.adoc#, Project Order>> (Projektauftrag)
+* <<system-specification.adoc#, System Specification>> (Pflichtenheft)
+* <<minutes-of-meeting.adoc#, Minutes of meetings>> (Minutes of meetings)
+
+== Externe Projekt Repositorys
+nicht verfügbar

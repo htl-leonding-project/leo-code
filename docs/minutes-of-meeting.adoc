@@ -1,0 +1,26 @@
+= Besprechungsprotokoll
+1.0, 2020-04-20
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:toc: left
+
+.Organisatorisches
+|===
+
+|Teilnehmer |
+|Ort|Discord
+|Datum - Uhrzeit|
+|Dauer|
+|===
+
+== Besprochene Themen
+
+*
+
+== Vereinbarungen und Entscheidungen
+
+*
+
+== Index
+
+<<index.adoc#, Zurück zum Index>>

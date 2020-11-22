@@ -1,0 +1,95 @@
+= Projektauftrag LeoCode
+// Metadata
+:team: Besic Benjamin, Ignjatovic David, Raid Yimne, Spasenovic Bozidar
+:team-leiter: Ignjatovic David
+:date: 10.10.2020
+:revision:  1.0
+// Settings
+:source-highlighter: coderay
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+// Refs:
+// :imagesdir: images
+// :sourcedir-code: src/main/java/at/htl/jdbcprimer
+// :sourcedir-test: src/test/java/at/htl/jdbcprimer
+:toc:
+
+Version: {revision}
+
+++++
+<link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+++++
+
+== Projektbezeichnung
+*LeoCode C#*
+
+== Projektauftraggeber
+Prof. Mag. Dr. Stütz
+
+== Projekthintergrund
+In der HTL Leonding wird besonders im Informatikzweig (zum Teil auch in den anderen Zweigen) auf praktische Programmierübung
+Wert gelegt. +
+Viele Schüler haben aber durch den Lehrplan nicht genug praktische Übung im Unterricht und kennen sich meistens nicht bei den Hausübungen aus. +
+Noch dazu haben die ersten Klassen öfters Probleme mit den IDE's. Meistens haben sie keinen Zugriff oder irgendetwas hat nicht funktioniert.
+
+== Projektergebnis
+
+Das Ergebnis ist eine Webapp, wo die Schüler C# Coding-Übungen mit dazugehörigen Unit-Tests absolvieren können.
+
+== Projektziel
+
+Das Ziel ist es den Schülern die Möglichkeit zu geben, Programmieren in der Sprache C# zu üben und dadurch besser im Unterricht mitzukommen.
+
+== Projektbeschreibung
+Das Projekt ist eine Webanwendung, wo der Schüler die Möglichkeit hat verschiedene Übungen für C# durchzuführen.
+Der Schüler loggt sich mit seinen Schuldaten ein und kann direkt loslegen, die Übungen werden von den jeweiligen Lehrkräften zur Verfügung gestellt. +
+Nachdem der Schüler seine Lösung ausprogrammiert hat, wird der Quellcode an die Jenkins Pipeline übergeben,
+dort wird es dann kompiliert und durch Unit Tests geprüft, ob die Lösung
+korrekt ist oder nicht. +
+Der RestService wird mit Quarkus geschrieben, die dazugehörige GUI mit nodeJS und beim Browser wird mit angular gearbeitet.
+
+== Meilensteine
+|===
+|Pflichtenheft + Utrack SCRUM Organisation
+|C# Übungen schreiben/implementieren + Unit Tests
+|Jenkins Pipeline C#
+|RestService mit Quarkus
+|GUI
+|Testen (mit Schülern)
+|===
+
+== Freigaben
+Noch nicht besprochen!
+
+== Projektstart
+
+05.10.2020
+
+== Projektende
+Während dem fünften Schuljahr
+
+== Projektressourcen
+=== IDEA
+* IntelliJ
+
+=== Programmieren
+* Quarkus
+* nodeJS
+* angular
+* Jenkins
+
+=== Webapp
+* Webserver
+* Datenbank
+
+== Projektrisiken
+
+* Zeitmangel
+
+== Projektorganisation
+* Projektmanager: {team-leiter}
+* Projektstellvertreter: {team}
+
+== Index
+
+<<index.adoc#, Zurück zum Index>>

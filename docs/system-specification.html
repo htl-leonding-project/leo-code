@@ -453,7 +453,7 @@ pre.rouge .hll * {
 <div class="details">
 <span id="author" class="author">Besic Benjamin, Ignjatovic David, Raid Yimne, Spasenovic Bozidar</span><br>
 <span id="revnumber">version 1.0.0,</span>
-<span id="revdate">yyyy-mm-dd</span>
+<span id="revdate">2020-11-17</span>
 <br><span id="revremark">Some notes</span>
 </div>
 <div id="toc" class="toc2">
@@ -471,12 +471,13 @@ pre.rouge .hll * {
 <li><a href="#_systemarchitektur">1.8. Systemarchitektur</a></li>
 </ul>
 </li>
-<li><a href="#_projekthandbuch_organisatorische_rahmenbedingungen">2. Projekthandbuch "Organisatorische Rahmenbedingungen"</a>
+<li><a href="#_projekthandbuch_organisatorische_rahmenbedingungen">2. Projekthandbuch "Organisatorische Rahmenbedingungen"</a></li>
+<li><a href="#_meilensteine">3. Meilensteine</a>
 <ul class="sectlevel2">
-<li><a href="#_gantt_diagramm">2.1. GANTT-Diagramm</a></li>
+<li><a href="#_gantt_diagramm">3.1. GANTT-Diagramm</a></li>
 </ul>
 </li>
-<li><a href="#_index">3. Index</a></li>
+<li><a href="#_index">4. Index</a></li>
 </ul>
 </div>
 </div>
@@ -503,31 +504,33 @@ pre.rouge .hll * {
 <h3 id="_istzustand"><a class="anchor" href="#_istzustand"></a>1.2. Istzustand</h3>
 <div class="paragraph">
 <p>In allen Zweigen spielt das praktische Programmieren eine mehr oder weniger große Rolle, besonders in den Medientechnik- bzw. Informatik-Zweigen.
-Bei den ersten Klassen sind meistens viele Schüler dabei, die noch nie Erfahrung mit Programmieren hatten.</p>
+Bei den ersten Klassen sind meistens viele Schüler dabei, die noch keine Erfahrung mit Programmieren hatten.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_problemstellung"><a class="anchor" href="#_problemstellung"></a>1.3. Problemstellung</h3>
 <div class="paragraph">
-<p>Viele Schüler haben aber durch den Lehrplan nicht genug praktische Übung im Unterricht und kennen sich meistens nicht bei den Hausübungen aus.<br>
-Noch dazu haben die ersten Klassen öfters Probleme mit den IDE&#8217;s. Meistens haben sie keinen Zugriff oder irgendetwas hat nicht funktioniert.</p>
+<p>Viele Schüler haben aber durch den Lehrplan nicht genug praktische Übung im Unterricht und kennen sich meistens nicht bei den Hausübungen aus. Noch dazu haben die ersten Klassen öfters Probleme mit den IDE&#8217;s. Meistens haben sie keinen Zugriff oder andere Probleme.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_aufgabenstellung"><a class="anchor" href="#_aufgabenstellung"></a>1.4. Aufgabenstellung</h3>
 <div class="paragraph">
-<p>Zu entwickeln ist ein Platform welche:</p>
+<p>Zu entwickeln ist eine Plattform, die Folgendes kann:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p>Es ermöglicht Schülern C# Code-Beispiele zu Programmieren</p>
+<p>Die Plattform gibt den Schülern die Möglichkeit verschiedene Programmiersprachen mit einfachen Übungen zu üben.</p>
 </li>
 <li>
-<p>Schüler auf Ihre Abgaben Feedback bzw. die Lösung bereitstellt</p>
+<p>Die Plattform stellt den Schülern die Lösungen der Aufgaben zur Verfügung.</p>
 </li>
 <li>
-<p>Dem Lehrpersonal ermöglicht Beispiele inklusive Tests zu erstellen</p>
+<p>Die Plattform gibt den Schülern ein Feedback zu den gelösten Aufgaben mithilfe von Unit Tests.</p>
+</li>
+<li>
+<p>Die Plattform ermöglicht den Lehrern Aufgaben, Quizzes und/oder Tests zu erstellen und diese dann den Schülern bereitzustellen.</p>
 </li>
 </ul>
 </div>
@@ -538,7 +541,7 @@ Noch dazu haben die ersten Klassen öfters Probleme mit den IDE&#8217;s. Meisten
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="images/diag-9351968c04090a5fa770d4c779e41471.png" alt="diag 9351968c04090a5fa770d4c779e41471" width="458" height="635">
+<img src="images/diag-d3dc7e00f261ff57076581578f4183d4.png" alt="diag d3dc7e00f261ff57076581578f4183d4" width="398" height="679">
 </div>
 </div>
 <div class="sect4">
@@ -549,7 +552,7 @@ Noch dazu haben die ersten Klassen öfters Probleme mit den IDE&#8217;s. Meisten
 <div class="ulist">
 <ul>
 <li>
-<p>sich anzumelden</p>
+<p>sich anzumelden (nicht zwingend)</p>
 </li>
 <li>
 <p>Aufgaben und Tests zu sehen</p>
@@ -558,12 +561,15 @@ Noch dazu haben die ersten Klassen öfters Probleme mit den IDE&#8217;s. Meisten
 <p>Aufgaben und Tests zu absolvieren</p>
 </li>
 <li>
-<p>Feedback zu den Aufgaben und Tests anzuschauen</p>
+<p>Feedback zu den Aufgaben und Tests anzuschauen (Unit Tests)</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>Ein Schüler hat die Möglichkeit sich anzumelden. Der Schüler hat die Möglichkeiten sich seine Aufgaben anzuschauen und die Aufgaben zu erledigen. Noch dazu hat der Schüler auch Zugriff auf die vom Professor vorgefertigten Tests, die er auch absolvieren kann. Zu den jeweiligen Aufgaben oder Tests bekommt jeder Schüler ein kleines Feedback, welches sich der Schüler jederzeit durchlesen kann.</p>
+<p>Ein Schüler hat die Möglichkeit sich anzumelden, aber eine Verwendung ohne Anmeldung ist auch möglich.<br>
+Der Schüler hat die Möglichkeiten sich seine Aufgaben anzuschauen und die Aufgaben zu erledigen.
+Noch dazu hat der Schüler auch Zugriff auf die vom Professor vorgefertigten Tests, die er auch absolvieren kann.<br>
+Zu den jeweiligen Aufgaben oder Tests bekommt jeder Schüler ein kleines Feedback, welches sich der Schüler jederzeit durchlesen kann.</p>
 </div>
 </div>
 <div class="sect4">
@@ -577,18 +583,17 @@ Noch dazu haben die ersten Klassen öfters Probleme mit den IDE&#8217;s. Meisten
 <p>sich anzumelden</p>
 </li>
 <li>
-<p>Aufgaben und Tests zu veröffentlichen.</p>
+<p>Aufgaben und Tests zu veröffentlichen/bearbeiten.</p>
 </li>
 <li>
-<p>Aufgaben und Tests zu korrigieren</p>
-</li>
-<li>
-<p>Ein Feedback zu den Aufgaben und Tests hinterlassen</p>
+<p>Aufgaben und Tests einzusehen (auf Freigabe des Schülers)</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>Ein Professor hat die Möglichkeit sich anzumelden. Falls der Professor einen Test für eine Klasse erstellt hat, kann er diesen ebenfalls veröffentlichen. Nachdem der Schüler die Tests und Aufgaben absolviert hat, ist der Professor in der Lage sich diese anzuschauen, zu korrigieren und jeweils ein Feedback hinterlassen.</p>
+<p>Ein Professor hat die Möglichkeit sich anzumelden.
+Falls der Professor einen Test für eine Klasse erstellt hat, kann er diesen ebenfalls veröffentlichen.<br>
+Nachdem der Schüler die Tests und Aufgaben absolviert hat, ist der Professor in der Lage sich diese anzuschauen, falls der Schüler es für den Lehrer freigibt.</p>
 </div>
 </div>
 </div>
@@ -615,10 +620,15 @@ Noch dazu haben die ersten Klassen öfters Probleme mit den IDE&#8217;s. Meisten
 </div>
 </div>
 <div class="sect3">
-<h4 id="_sequenz_diagramm"><a class="anchor" href="#_sequenz_diagramm"></a>1.4.3. Sequenz Diagramm</h4>
+<h4 id="_process_diagram_for_the_student_and_teacher"><a class="anchor" href="#_process_diagram_for_the_student_and_teacher"></a>1.4.3. Process-diagram for the student and teacher</h4>
 <div class="imageblock">
 <div class="content">
-<img src="images/sequence.jpeg" alt="sequence">
+<img src="images/Process-diagram-Student.jpeg" alt="Process diagram Student">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/Process-diagram-teacher.jpeg" alt="Process diagram teacher">
 </div>
 </div>
 </div>
@@ -634,7 +644,7 @@ Noch dazu haben die ersten Klassen öfters Probleme mit den IDE&#8217;s. Meisten
 <p>Eine verstärkte Koordination des Unterrichts in den jeweiligen Schulstufen und auch zwischen Parallelklassen.</p>
 </li>
 <li>
-<p>Das Übermitteln von Programmiermethoden an die Schüler wird den Lehrer erleichtert.</p>
+<p>Das Vermitteln von Programmiermethoden an die Schüler wird dem Lehrer erleichtert.</p>
 </li>
 </ul>
 </div>
@@ -642,9 +652,10 @@ Noch dazu haben die ersten Klassen öfters Probleme mit den IDE&#8217;s. Meisten
 <div class="sect2">
 <h3 id="_mengengerüst"><a class="anchor" href="#_mengengerüst"></a>1.6. Mengengerüst</h3>
 <div class="paragraph">
-<p>Hunderte von Schülern bekommen eine Auswahl von C# Code Beispielen, die sie programmieren können.
-Das Programm wird gleichzeitig kompiliert.
-Nach der Abgabe bekommen sie ein Feedback von dem jeweiligen Lehrer.</p>
+<p>Hunderte von Schülern bekommen eine Auswahl von Programmierbeispielen, die sie absolvieren können.
+Diese Aufgaben werden gleichzeitig kompiliert und mit Unit Tests getestet.
+Die Aufgaben und Tests werden in einer Datenbank gespeichert.
+Die WebApp läuft über einen RestClient.</p>
 </div>
 </div>
 <div class="sect2">
@@ -666,8 +677,39 @@ Nach der Abgabe bekommen sie ein Feedback von dem jeweiligen Lehrer.</p>
 <div class="sect1">
 <h2 id="_projekthandbuch_organisatorische_rahmenbedingungen"><a class="anchor" href="#_projekthandbuch_organisatorische_rahmenbedingungen"></a>2. Projekthandbuch "Organisatorische Rahmenbedingungen"</h2>
 <div class="sectionbody">
+
+</div>
+</div>
+<div class="sect1">
+<h2 id="_meilensteine"><a class="anchor" href="#_meilensteine"></a>3. Meilensteine</h2>
+<div class="sectionbody">
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 100%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Pflichtenheft + Utrack SCRUM Organisation</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Übungen schreiben/implementieren + Unit Tests</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Jenkins Pipeline</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">RestService mit Quarkus</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">GUI</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Testen (mit Schülern)</p></td>
+</tr>
+</tbody>
+</table>
 <div class="sect2">
-<h3 id="_gantt_diagramm"><a class="anchor" href="#_gantt_diagramm"></a>2.1. GANTT-Diagramm</h3>
+<h3 id="_gantt_diagramm"><a class="anchor" href="#_gantt_diagramm"></a>3.1. GANTT-Diagramm</h3>
 <div class="paragraph">
 <p>mit User-Stories (definiert in YouTrack)</p>
 </div>
@@ -685,7 +727,7 @@ Nach der Abgabe bekommen sie ein Feedback von dem jeweiligen Lehrer.</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_index"><a class="anchor" href="#_index"></a>3. Index</h2>
+<h2 id="_index"><a class="anchor" href="#_index"></a>4. Index</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p><a href="index.html">Zurück zum Index</a></p>
@@ -696,7 +738,7 @@ Nach der Abgabe bekommen sie ein Feedback von dem jeweiligen Lehrer.</p>
 <div id="footer">
 <div id="footer-text">
 Version 1.0.0<br>
-Last updated 2020-11-15 18:17:45 UTC
+Last updated 2020-11-22 20:18:47 UTC
 </div>
 </div>
 </body>
