@@ -1,0 +1,29 @@
+= Besprechungsprotokoll
+1.0, 2020-11-23
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:toc: left
+
+.Organisatorisches
+|===
+
+|Teilnehmer | Besic, Donnabauer, Ignjatovic, Raid, Spasenovic
+|Ort|Discord
+|Datum - Uhrzeit| 23.11.20 12:45
+|Dauer| 3 Stunden
+|===
+
+== Besprochene Themen
+
+* Projekt Präsentation
+* Arbeitsaufteilung
+* Erste Schritte auf Repository
+* Jenkings
+
+== Vereinbarungen und Entscheidungen
+
+* Programm zum Laufen bringen
+
+== Index
+
+<<index.adoc#, Zurück zum Index>>
