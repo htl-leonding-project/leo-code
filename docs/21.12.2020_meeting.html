@@ -5,9 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<meta name="author" content="Besic Benjamin, Ignjatovic David, Raid Yimne, Spasenovic Bozidar">
+<meta name="author" content="1.0, 2020-12-21">
 <link rel="icon" type="image/png" href="themes/favicon.png">
-<title>LeoCode</title>
+<title>Besprechungsprotokoll</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -449,310 +449,87 @@ pre.rouge .hll * {
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>LeoCode</h1>
+<h1>Besprechungsprotokoll</h1>
 <div class="details">
-<span id="author" class="author">Besic Benjamin, Ignjatovic David, Raid Yimne, Spasenovic Bozidar</span><br>
-<span id="revnumber">version 1.0.0,</span>
-<span id="revdate">2020-11-17</span>
-<br><span id="revremark">Some notes</span>
+<span id="author" class="author">1.0, 2020-12-21</span><br>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_pflichtenheft">1. Pflichtenheft</a>
-<ul class="sectlevel2">
-<li><a href="#_ausgangssituation">1.1. Ausgangssituation</a></li>
-<li><a href="#_istzustand">1.2. Istzustand</a></li>
-<li><a href="#_problemstellung">1.3. Problemstellung</a></li>
-<li><a href="#_aufgabenstellung">1.4. Aufgabenstellung</a></li>
-<li><a href="#_ziele">1.5. Ziele</a></li>
-<li><a href="#_mengengerüst">1.6. Mengengerüst</a></li>
-<li><a href="#_rahmenbedingungen">1.7. Rahmenbedingungen</a></li>
-<li><a href="#_systemarchitektur">1.8. Systemarchitektur</a></li>
-</ul>
-</li>
-<li><a href="#_projekthandbuch_organisatorische_rahmenbedingungen">2. Projekthandbuch "Organisatorische Rahmenbedingungen"</a></li>
-<li><a href="#_meilensteine">3. Meilensteine</a>
-<ul class="sectlevel2">
-<li><a href="#_gantt_diagramm">3.1. GANTT-Diagramm</a></li>
-</ul>
-</li>
-<li><a href="#_index">4. Index</a></li>
+<li><a href="#_besprochene_themen">1. Besprochene Themen</a></li>
+<li><a href="#_vereinbarungen_und_entscheidungen">2. Vereinbarungen und Entscheidungen</a></li>
+<li><a href="#_index">3. Index</a></li>
 </ul>
 </div>
 </div>
 <div id="content">
 <div id="preamble">
 <div class="sectionbody">
-<div class="paragraph">
-<p><span class="icon"><a class="image" href="https://raw.githubusercontent.com/htl-leonding-college/asciidoctor-docker-template/master/asciidocs/system-specification.adoc"><i class="fa fa-file-text-o"></i></a></span> ‏ ‏ ‎
-<span class="icon"><a class="image" href="https://github.com/htl-leonding-college/asciidoctor-docker-template"><i class="fa fa-github-square"></i></a></span> ‏ ‏ ‎
-<span class="icon"><a class="image" href="https://htl-leonding.github.io/"><i class="fa fa-home"></i></a></span></p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_pflichtenheft"><a class="anchor" href="#_pflichtenheft"></a>1. Pflichtenheft</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="_ausgangssituation"><a class="anchor" href="#_ausgangssituation"></a>1.1. Ausgangssituation</h3>
-<div class="paragraph">
-<p>Die HTL Leonding ist eine HTL mit ungefähr 1000 Schülern und den Abteilungen Medientechnik, Informatik, Medizintechnik sowie Elektronik.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_istzustand"><a class="anchor" href="#_istzustand"></a>1.2. Istzustand</h3>
-<div class="paragraph">
-<p>In allen Zweigen spielt das praktische Programmieren eine mehr oder weniger große Rolle, besonders in den Medientechnik- bzw. Informatik-Zweigen.
-Bei den ersten Klassen sind meistens viele Schüler dabei, die noch keine Erfahrung mit Programmieren hatten.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_problemstellung"><a class="anchor" href="#_problemstellung"></a>1.3. Problemstellung</h3>
-<div class="paragraph">
-<p>Viele Schüler haben aber durch den Lehrplan nicht genug praktische Übung im Unterricht und kennen sich meistens nicht bei den Hausübungen aus. Noch dazu haben die ersten Klassen öfters Probleme mit den IDE&#8217;s. Meistens haben sie keinen Zugriff oder andere Probleme.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_aufgabenstellung"><a class="anchor" href="#_aufgabenstellung"></a>1.4. Aufgabenstellung</h3>
-<div class="paragraph">
-<p>Zu entwickeln ist eine Plattform, die Folgendes kann:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Die Plattform gibt den Schülern die Möglichkeit verschiedene Programmiersprachen mit einfachen Übungen zu üben.</p>
-</li>
-<li>
-<p>Die Plattform stellt den Schülern die Lösungen der Aufgaben zur Verfügung.</p>
-</li>
-<li>
-<p>Die Plattform gibt den Schülern ein Feedback zu den gelösten Aufgaben mithilfe von Unit Tests.</p>
-</li>
-<li>
-<p>Die Plattform ermöglicht den Lehrern Aufgaben, Quizzes und/oder Tests zu erstellen und diese dann den Schülern bereitzustellen.</p>
-</li>
-</ul>
-</div>
-<div class="sect3">
-<h4 id="_funktionale_anforderungen"><a class="anchor" href="#_funktionale_anforderungen"></a>1.4.1. Funktionale Anforderungen</h4>
-<div class="paragraph">
-<p>Use-Case Diagramm</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/diag-d3dc7e00f261ff57076581578f4183d4.png" alt="diag d3dc7e00f261ff57076581578f4183d4" width="398" height="679">
-</div>
-</div>
-<div class="sect4">
-<h5 id="_use_cases_von_der_schülerperspektive"><a class="anchor" href="#_use_cases_von_der_schülerperspektive"></a>Use-Cases von der Schülerperspektive:</h5>
-<div class="paragraph">
-<p>Der Schüler hat die Möglichkeiten:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>sich anzumelden (nicht zwingend)</p>
-</li>
-<li>
-<p>Aufgaben und Tests zu sehen</p>
-</li>
-<li>
-<p>Aufgaben und Tests zu absolvieren</p>
-</li>
-<li>
-<p>Feedback zu den Aufgaben und Tests anzuschauen (Unit Tests)</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>Ein Schüler hat die Möglichkeit sich anzumelden, aber eine Verwendung ohne Anmeldung ist auch möglich.<br>
-Der Schüler hat die Möglichkeiten sich seine Aufgaben anzuschauen und die Aufgaben zu erledigen.
-Noch dazu hat der Schüler auch Zugriff auf die vom Professor vorgefertigten Tests, die er auch absolvieren kann.<br>
-Zu den jeweiligen Aufgaben oder Tests bekommt jeder Schüler ein kleines Feedback, welches sich der Schüler jederzeit durchlesen kann.</p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_use_cases_von_der_lehrerperspektive"><a class="anchor" href="#_use_cases_von_der_lehrerperspektive"></a>Use-Cases von der Lehrerperspektive:</h5>
-<div class="paragraph">
-<p>Der Professor hat die Möglichkeiten:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>sich anzumelden</p>
-</li>
-<li>
-<p>Aufgaben und Tests zu veröffentlichen/bearbeiten.</p>
-</li>
-<li>
-<p>Aufgaben und Tests einzusehen (auf Freigabe des Schülers)</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>Ein Professor hat die Möglichkeit sich anzumelden.
-Falls der Professor einen Test für eine Klasse erstellt hat, kann er diesen ebenfalls veröffentlichen.<br>
-Nachdem der Schüler die Tests und Aufgaben absolviert hat, ist der Professor in der Lage sich diese anzuschauen, falls der Schüler es für den Lehrer freigibt.</p>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_nichtfunktionale_anforderungen"><a class="anchor" href="#_nichtfunktionale_anforderungen"></a>1.4.2. Nichtfunktionale Anforderungen</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>Benutzerfreundlichkeit</p>
-</li>
-<li>
-<p>Verlässlichkeit</p>
-</li>
-<li>
-<p>Effizienz</p>
-</li>
-<li>
-<p>Performance</p>
-</li>
-<li>
-<p>Wartbarkeit</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_process_diagram_for_the_student_and_teacher"><a class="anchor" href="#_process_diagram_for_the_student_and_teacher"></a>1.4.3. Process-diagram for the student and teacher</h4>
-<div class="imageblock">
-<div class="content">
-<img src="images/Process-diagram-Student.jpeg" alt="Process diagram Student">
-</div>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/Process-diagram-teacher.jpeg" alt="Process diagram teacher">
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_ui_for_program"><a class="anchor" href="#_ui_for_program"></a>1.4.4. UI for program</h4>
-<div class="paragraph">
-<p>Main View</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/mainView_UI.png" alt="mainView UI">
-</div>
-</div>
-<div class="paragraph">
-<p>Student Hub View</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/studentListView_UI.png" alt="studentListView UI">
-</div>
-</div>
-<div class="paragraph">
-<p>Student Detail View</p>
-</div>
-<div class="paragraph">
-<p>Teacher Hub View</p>
-</div>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_ziele"><a class="anchor" href="#_ziele"></a>1.5. Ziele</h3>
-<div class="ulist">
-<ul>
-<li>
-<p>Schüler bekommen eine Vielfalt von Beispielen inklusive Unterrichtsbeispielen bereitgestellt.</p>
-</li>
-<li>
-<p>Eine verstärkte Koordination des Unterrichts in den jeweiligen Schulstufen und auch zwischen Parallelklassen.</p>
-</li>
-<li>
-<p>Das Vermitteln von Programmiermethoden an die Schüler wird dem Lehrer erleichtert.</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_mengengerüst"><a class="anchor" href="#_mengengerüst"></a>1.6. Mengengerüst</h3>
-<div class="paragraph">
-<p>Hunderte von Schülern bekommen eine Auswahl von Programmierbeispielen, die sie absolvieren können.
-Diese Aufgaben werden gleichzeitig kompiliert und mit Unit Tests getestet.
-Die Aufgaben und Tests werden in einer Datenbank gespeichert.
-Die WebApp läuft über einen RestClient.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_rahmenbedingungen"><a class="anchor" href="#_rahmenbedingungen"></a>1.7. Rahmenbedingungen</h3>
-<div class="paragraph">
-<p>Noch nicht vorgegeben</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_systemarchitektur"><a class="anchor" href="#_systemarchitektur"></a>1.8. Systemarchitektur</h3>
-<div class="imageblock">
-<div class="content">
-<img src="images/diag-63d76a2e62ed0e904addd1729a0ef769.png" alt="diag 63d76a2e62ed0e904addd1729a0ef769" width="698" height="692">
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_projekthandbuch_organisatorische_rahmenbedingungen"><a class="anchor" href="#_projekthandbuch_organisatorische_rahmenbedingungen"></a>2. Projekthandbuch "Organisatorische Rahmenbedingungen"</h2>
-<div class="sectionbody">
-
-</div>
-</div>
-<div class="sect1">
-<h2 id="_meilensteine"><a class="anchor" href="#_meilensteine"></a>3. Meilensteine</h2>
-<div class="sectionbody">
 <table class="tableblock frame-all grid-all stretch">
+<caption class="title">Table 1. Organisatorisches</caption>
 <colgroup>
-<col style="width: 100%;">
+<col style="width: 50%;">
+<col style="width: 50%;">
 </colgroup>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Pflichtenheft + Utrack SCRUM Organisation</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Teilnehmer</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ignjatovic, Besic, Stütz, Gruber-Leitner, Spasenovic</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Übungen schreiben/implementieren + Unit Tests</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ort</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Discord</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Jenkins Pipeline</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Datum - Uhrzeit</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">21.12.2020 - 14:30 Uhr</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">RestService mit Quarkus</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">GUI</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Testen (mit Schülern)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Dauer</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">15 Minuten</p></td>
 </tr>
 </tbody>
 </table>
-<div class="sect2">
-<h3 id="_gantt_diagramm"><a class="anchor" href="#_gantt_diagramm"></a>3.1. GANTT-Diagramm</h3>
-<div class="paragraph">
-<p>mit User-Stories (definiert in YouTrack)</p>
 </div>
+</div>
+<div class="sect1">
+<h2 id="_besprochene_themen"><a class="anchor" href="#_besprochene_themen"></a>1. Besprochene Themen</h2>
+<div class="sectionbody">
 <div class="ulist">
 <ul>
 <li>
-<p><a href="minutes-of-meeting">Protokollvorlage</a></p>
+<p>Angular UI</p>
 </li>
 <li>
-<p><a href="demo.html">Demo</a></p>
+<p>Angular Kurs</p>
+</li>
+<li>
+<p>Angabe Christian</p>
 </li>
 </ul>
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_vereinbarungen_und_entscheidungen"><a class="anchor" href="#_vereinbarungen_und_entscheidungen"></a>2. Vereinbarungen und Entscheidungen</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Angular UI skizzieren</p>
+</li>
+<li>
+<p>Kurs über Ferien fertigmachen</p>
+</li>
+<li>
+<p>Gelerntes im Kurs auf unser Projekt anwenden</p>
+</li>
+</ul>
+</div>
+</div>
 </div>
 <div class="sect1">
-<h2 id="_index"><a class="anchor" href="#_index"></a>4. Index</h2>
+<h2 id="_index"><a class="anchor" href="#_index"></a>3. Index</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p><a href="index.html">Zurück zum Index</a></p>
@@ -762,8 +539,7 @@ Die WebApp läuft über einen RestClient.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 1.0.0<br>
-Last updated 2020-12-21 14:25:59 UTC
+Last updated 2020-12-21 14:18:42 UTC
 </div>
 </div>
 </body>

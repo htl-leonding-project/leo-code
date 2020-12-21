@@ -121,6 +121,19 @@ Nachdem der Schüler die Tests und Aufgaben absolviert hat, ist der Professor in
 image::Process-diagram-Student.jpeg[]
 image::Process-diagram-teacher.jpeg[]
 
+==== UI for program
+Main View
+
+image::mainView_UI.png[]
+
+Student Hub View
+
+image::studentListView_UI.png[]
+
+Student Detail View
+
+Teacher Hub View
+
 === Ziele
 
 * Schüler bekommen eine Vielfalt von Beispielen inklusive Unterrichtsbeispielen bereitgestellt.
