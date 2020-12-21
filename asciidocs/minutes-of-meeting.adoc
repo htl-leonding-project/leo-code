@@ -4,22 +4,9 @@ ifndef::imagesdir[:imagesdir: images]
 :icons: font
 :toc: left
 
-.Organisatorisches
-|===
+== Meetings
 
-|Teilnehmer |
-|Ort|Discord
-|Datum - Uhrzeit|
-|Dauer|
-|===
-
-== Besprochene Themen
-
-*
-
-== Vereinbarungen und Entscheidungen
-
-*
+* <<23.11.20-meeting.adoc#, Meeting am 23.11.20>>
 
 == Index
 

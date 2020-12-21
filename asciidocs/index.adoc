@@ -25,4 +25,9 @@ LeoCode is ein Webanwendung die für Schüler der HTL Leonding entwickelt wird, 
 ** <<21.12.2020_meeting.adoc#, First Meeting>>
 
 == Externe Projekt Repositorys
-nicht verfügbar
+
+link:https://github.com/Musikfreunde/LeoCode[Leo Code (Musikfreunde)]
+
+link:https://github.com/donnabauerc/LeoCode[Leo Code (Donnabauer)]
+
+link:https://github.com/donnabauerc/LeoCodeDocs[Leo Code (Donnabauer Docs)]
