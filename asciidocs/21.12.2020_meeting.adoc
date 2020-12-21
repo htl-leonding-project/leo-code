@@ -17,7 +17,7 @@ ifndef::imagesdir[:imagesdir: images]
 
 * Angular UI
 * Angular Kurs
-* Angabe Christian
+* Angabe von Christian
 
 == Vereinbarungen und Entscheidungen
 
