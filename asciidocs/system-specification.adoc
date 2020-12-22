@@ -130,9 +130,13 @@ Student Hub View
 
 image::studentListView_UI.png[]
 
-Student Detail View
+Student Upload View
 
-Teacher Hub View
+image::uploadView.png[]
+
+Teacher Upload View
+
+image::uploadTeacherView.png[]
 
 === Ziele
 
