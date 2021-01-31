@@ -122,7 +122,7 @@ image::Process-diagram-Student.jpeg[]
 image::Process-diagram-teacher.jpeg[]
 
 ==== UI for program
-Main View
+Main View (alt! -> einfaches Login)
 
 image::mainView_UI.png[]
 
@@ -130,11 +130,11 @@ Student Hub View
 
 image::studentListView_UI.png[]
 
-Student Upload View
+Student Upload View (alt! -> Abgabe und Testen durch Theia)
 
 image::uploadView.png[]
 
-Teacher Upload View
+Teacher Upload View (alt! -> neues mit Zipupload)
 
 image::uploadTeacherView.png[]
 
@@ -160,7 +160,7 @@ Noch nicht vorgegeben
 ----
 @startuml
 
-node "<<not defined yet>>\nLeoCodeC#Testing" as n1
+node "<<not defined yet>>\nLeoCode Testing" as n1
 
 node "<<quarkus>>\n LeoBackend" as n2
 
