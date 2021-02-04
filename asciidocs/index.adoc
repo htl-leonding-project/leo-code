@@ -25,7 +25,7 @@ LeoCode is ein Webanwendung die für Schüler der HTL Leonding entwickelt wird, 
 
 == Externe Projekt Repositorys
 
-link:https://github.com/Musikfreunde/leocode-frontend[Leo Code Angular]
+link:https://github.com/Musikfreunde/leo-code-frontend[Leo Code Angular]
 
 link:https://github.com/Musikfreunde/LeoCode[Leo Code (Musikfreunde)]
 
