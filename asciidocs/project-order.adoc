@@ -71,7 +71,7 @@ Während dem fünften Schuljahr
 == Projektressourcen
 === IDEA
 * IntelliJ
-* Websorm
+* Webstorm
 
 === Programmieren
 * Quarkus
