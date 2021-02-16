@@ -1,5 +1,4 @@
 = LeoCode
-Benjamin Besic, David Ignjatovic, Yimne Raid, Bozidar Spasenovic
 :sourcedir: ../src/main/java
 :icons: font
 :sectnums:    // Nummerierung der Überschriften / section numbering

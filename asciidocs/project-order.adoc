@@ -32,7 +32,7 @@ Wert gelegt. +
 Viele Schüler haben aber durch den Lehrplan nicht genug praktische Übung im Unterricht und kennen sich meistens nicht bei den Hausübungen aus. +
 Noch dazu haben die ersten Klassen öfters Probleme mit den IDE's. Meistens haben sie keinen Zugriff oder irgendetwas hat nicht funktioniert.
 
-== Projektergebnis
+== Projektergebniss
 
 Das Ergebnis ist eine Webapp, wo die Schüler Java Coding-Übungen mit dazugehörigen Unit-Tests absolvieren können.
 
@@ -71,6 +71,7 @@ Während dem fünften Schuljahr
 == Projektressourcen
 === IDEA
 * IntelliJ
+* Websorm
 
 === Programmieren
 * Quarkus
