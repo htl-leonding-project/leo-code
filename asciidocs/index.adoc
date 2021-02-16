@@ -25,17 +25,21 @@ LeoCode ist eine Webanwendung die für Schüler der HTL Leonding entwickelt wird
 
 === Leo Code UI mit Angular:
 
-.Info
-NOTE: Wird nicht mehr verwendet
+link:https://github.com/Musikfreunde/leo-code-frontend[Leo Code Angular aktuell]
 
-link:https://github.com/Musikfreunde/leo-code-frontend[Leo Code Angular]
+
+link:https://github.com/Musikfreunde/leocode-ui[Leo Code Angular alt]
+
+.Info
+NOTE: *Leo Code Angular old* wird nicht mehr verwendet
 
 === Einfaches Angular-Quarkus Projekt zum Ausprobieren:
 
-.Info
-NOTE: Wird nicht mehr verwendet
-
 link:https://github.com/Musikfreunde/leo-code-simple-button-test[Leo Code (Musikfreunde)]
+
+.Info
+NOTE: *Leo Code (Musikfreunde)* wird nicht mehr verwendet
+
 
 === Donnabauer Repos:
 
