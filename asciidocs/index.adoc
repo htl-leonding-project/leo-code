@@ -8,14 +8,14 @@ Benjamin Besic, David Ignjatovic, Yimne Raid, Bozidar Spasenovic
 
 == Projektbeschreibung
 
-LeoCode is ein Webanwendung die für Schüler der HTL Leonding entwickelt wird, um C# Coding zu üben.
+LeoCode ist ein Webanwendung die für Schüler der HTL Leonding entwickelt wird, um das Coding zu üben.
 
 == Team
 
-* 03BB
-* 13DI
-* 18YR
-* 23BS
+* Benjamin Besic
+* David Ignjatovic
+* Yimne Raid
+* Bozidar Spasenovic
 
 == Dokumente
 
@@ -25,9 +25,21 @@ LeoCode is ein Webanwendung die für Schüler der HTL Leonding entwickelt wird, 
 
 == Externe Projekt Repositorys
 
+=== Leo Code UI mit Angular:
+
+.Info
+NOTE: Wird nicht mehr verwendet
+
 link:https://github.com/Musikfreunde/leo-code-frontend[Leo Code Angular]
 
-link:https://github.com/Musikfreunde/LeoCode[Leo Code (Musikfreunde)]
+=== Einfaches Angular-Quarkus Projekt zum Ausprobieren:
+
+.Info
+NOTE: Wird nicht mehr verwendet
+
+link:https://github.com/Musikfreunde/leo-code-simple-button-test[Leo Code (Musikfreunde)]
+
+=== Donnabauer Repos:
 
 link:https://github.com/donnabauerc/LeoCode[Leo Code (Donnabauer)]
 
