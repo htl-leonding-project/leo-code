@@ -15,13 +15,19 @@ ifndef::imagesdir[:imagesdir: images]
 
 == Besprochene Themen
 
+Christian Donnabauer hat uns sein Projekt präsentiert damit wir wissen um was es geht.
+Noch dazu haben wir haben uns geeinigt, wer was macht.
+
+.Stichwörter
 * Projekt Präsentation
 * Arbeitsaufteilung
 * Erste Schritte auf Repository
 * Jenkings
 
 == Vereinbarungen und Entscheidungen
+Wir sollen versuchen das Programm, welches wir bekommen haben zum Laufen zu bringen.
 
+.Stichwörter
 * Programm zum Laufen bringen
 
 == Index

@@ -15,6 +15,11 @@ ifndef::imagesdir[:imagesdir: images]
 
 == Besprochene Themen
 
+Wir haben besprochen das wir unser Angular Projekt nicht mehr verwenden sollen und dafür ein neues erstellen mit einer besseren Struktur.
+Die Struktur wird fur den Theia Editor verwendet. Das Frontend Layout sollte mit einem Login funktionieren und wir sollten noch eine Navbar hinzufügen.
+Noch dazu müssen wir das Upload ändern, weil wir ein Zipiupload brauchen.
+
+.Stichwörter
 * Neues Angular Project mit entsprechender Struktur https://itnext.io/choosing-a-highly-scalable-folder-structure-in-angular-d987de65ec7 +
 * Theia Online Editor einbauen
 * Neues Frontend Layout mit Login, Navbar, Zipupload
@@ -22,7 +27,9 @@ ifndef::imagesdir[:imagesdir: images]
 
 == Vereinbarungen und Entscheidungen
 
-* Besprechung mit Prof. Stuetz
+Wir sollten mit dem Herr Prof. Stuetz sprechen was unsere Nächsten schritte sind und das dann machen.
+Uns wurde vorgeschlagen, dass wir das Angular Project Layout benutzen und ein Angular Tutorial machen.
+* Besprechung mit Prof. Stütz
 * Angular Project Layout benutzen
 * Angular Tutorial https://angular.io/tutorial
 

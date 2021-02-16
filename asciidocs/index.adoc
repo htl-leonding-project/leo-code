@@ -7,7 +7,7 @@ Benjamin Besic, David Ignjatovic, Yimne Raid, Bozidar Spasenovic
 
 == Projektbeschreibung
 
-LeoCode ist ein Webanwendung die für Schüler der HTL Leonding entwickelt wird, um das Coding zu üben.
+LeoCode ist eine Webanwendung die für Schüler der HTL Leonding entwickelt wird, um das Coding zu üben.
 
 == Team
 

@@ -1,0 +1,38 @@
+= Besprechungsprotokoll
+1.0, 2021-02-12
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:toc: left
+
+.Organisatorisches
+|===
+
+|Teilnehmer| Bahar, Ignjatovic, Raid, Spasenovic, Stütz
+|Ort|Discord und Jit.si
+|Datum - Uhrzeit| 12.02.2021 - 17:00 Uhr
+|Dauer| 60 Minuten
+|===
+
+== Besprochene Themen
+
+Wir haben das Backend besprochen, wie es funktioniert und was es braucht.
+Wir haben unseren jetzigen stand besprochen und was wir noch machen müssen.
+
+.Stichwörter
+* Backend besprochen
+* Stand besprochen
+
+== Vereinbarungen und Entscheidungen
+
+Wir sind uns einig gewesen das wir den Angular kurs machen und nebenbei eine Mini Quarkus-Angular app machen.
+Herr Prof. Stütz und Halil Bahar müssen noch mit dem Herr Prof. Aberger wegen der System architektur reden.
+
+.Stichwörter:
+* Angular Kurs für Endpoints
+* Mini Quarkus-Angular app
+* Reden wegen architektur (Stütz, Bahar)
+
+
+== Index
+
+<<index.adoc#, Zurück zum Index>>

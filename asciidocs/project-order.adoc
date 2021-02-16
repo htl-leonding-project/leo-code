@@ -21,7 +21,7 @@ Version: {revision}
 ++++
 
 == Projektbezeichnung
-*LeoCode C#*
+*LeoCode Java*
 
 == Projektauftraggeber
 Prof. Mag. Dr. Stütz
@@ -34,14 +34,14 @@ Noch dazu haben die ersten Klassen öfters Probleme mit den IDE's. Meistens habe
 
 == Projektergebnis
 
-Das Ergebnis ist eine Webapp, wo die Schüler C# Coding-Übungen mit dazugehörigen Unit-Tests absolvieren können.
+Das Ergebnis ist eine Webapp, wo die Schüler Java Coding-Übungen mit dazugehörigen Unit-Tests absolvieren können.
 
 == Projektziel
 
-Das Ziel ist es den Schülern die Möglichkeit zu geben, Programmieren in der Sprache C# zu üben und dadurch besser im Unterricht mitzukommen.
+Das Ziel ist es den Schülern die Möglichkeit zu geben, Programmieren in der Sprache Java zu üben und dadurch besser im Unterricht mitzukommen.
 
 == Projektbeschreibung
-Das Projekt ist eine Webanwendung, wo der Schüler die Möglichkeit hat verschiedene Übungen für C# durchzuführen.
+Das Projekt ist eine Webanwendung, wo der Schüler die Möglichkeit hat verschiedene Übungen für Java durchzuführen.
 Der Schüler loggt sich mit seinen Schuldaten ein und kann direkt loslegen, die Übungen werden von den jeweiligen Lehrkräften zur Verfügung gestellt. +
 Nachdem der Schüler seine Lösung ausprogrammiert hat, wird der Quellcode an die Jenkins Pipeline übergeben,
 dort wird es dann kompiliert und durch Unit Tests geprüft, ob die Lösung
@@ -51,8 +51,8 @@ Der RestService wird mit Quarkus geschrieben, die dazugehörige GUI mit nodeJS u
 == Meilensteine
 |===
 |Pflichtenheft + Utrack SCRUM Organisation
-|C# Übungen schreiben/implementieren + Unit Tests
-|Jenkins Pipeline C#
+|Java Übungen schreiben/implementieren + Unit Tests
+|Jenkins Pipeline Java
 |RestService mit Quarkus
 |GUI
 |Testen (mit Schülern)

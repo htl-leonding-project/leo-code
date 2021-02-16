@@ -15,15 +15,27 @@ ifndef::imagesdir[:imagesdir: images]
 
 == Besprochene Themen
 
-* Angular UI
-* Angular Kurs
+Wir sollten ein Angular UI erstellen, mit der Angabe die wir von dem Christian bekommen haben.
+Noch dazu sollten wir einen Angular Kurs machen.
+
+.Stichwörter
+
+* Angular UI erstellen
+* Angular Kurs Basics
 * Angabe von Christian
 
 == Vereinbarungen und Entscheidungen
 
+Wir sind uns einig gewesen, dass wir ein Angular UI skizzieren. Den Kurs sollen wir in den Ferien machen, damit wir die Basics verstehen.
+Das gelernte sollen wir dann an unserem UI Anwenden.
+
+.Stichwörter:
+
 * Angular UI skizzieren
 * Kurs über Ferien fertigmachen
 * Gelerntes im Kurs auf unser Projekt anwenden
+
+
 
 == Index
 

@@ -8,14 +8,14 @@ Github Pages:
 
 ## Projektbeschreibung
 
-LeoCode is ein Webanwendung die für Schüler der HTL Leonding entwickelt wird, um C# Coding zu üben.
+LeoCode ist eine Webanwendung die für Schüler der HTL Leonding entwickelt wird, um das Coding zu üben.
 
 ## Team
 
-* 03BB
-* 13DI
-* 18YR
-* 23BS
+* Benjamin Besic
+* David Ignjatovic
+* Yimne Raid
+* Bozidar Spasenovic
 
 ## GH-pages
 
