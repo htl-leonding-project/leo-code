@@ -3,7 +3,7 @@
 :team: Besic Benjamin, Ignjatovic David, Raid Yimne, Spasenovic Bozidar
 :team-leiter: Ignjatovic David
 :date: 10.10.2020
-:revision:  1.0
+:revision:
 // Settings
 :source-highlighter: coderay
 :icons: font
@@ -14,9 +14,13 @@
 // :sourcedir-test: src/test/java/at/htl/jdbcprimer
 :toc:
 
+ifdef::backend-html5[]
+
 icon:file-text-o[link=https://raw.githubusercontent.com/htl-leonding-project/leo-code/master/asciidocs/project-order.adoc]  ‏ ‏ ‎
 icon:github-square[link=https://github.com/htl-leonding-project/leo-code]  ‏ ‏ ‎
 icon:home[link=https://htl-leonding-project.github.io/leo-code/]  ‏ ‏ ‎
+
+endif::backend-html5[]
 
 Version: {revision}
 
