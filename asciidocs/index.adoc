@@ -48,5 +48,5 @@ link:https://github.com/donnabauerc/LeoCodeDocs[Leo Code Docs Git-Repository (Do
 link:https://github.com/Musikfreunde/leo-code-simple-button-test[Leo Code (Musikfreunde)]
 
 
-.Info
+.Wichtig
 NOTE: Diese Repository war nur zum Testen gedacht und wird nicht mehr verwendet

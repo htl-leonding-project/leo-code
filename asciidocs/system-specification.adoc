@@ -121,12 +121,10 @@ image::Process-diagram-Student.jpeg[]
 image::Process-diagram-teacher.jpeg[]
 
 ==== UI for program
-Login View (alt! -> einfaches Login)
-
+.*Login View*
 image::leocode-login.png[]
 
-Code Editor View
-
+.*Code Editor View*
 image::theia-editor.png[]
 
 

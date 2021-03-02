@@ -15,6 +15,11 @@ endif::backend-html5[]
 * <<30.01.2021-meeting.adoc#, Meeting am 30.01.21>>
 * <<12.02.2021-meeting.adoc#, Meeting am 12.02.21>>
 
+.Wichtig
+NOTE: *Die meetings werden ab jz hier weiter geführt!* link:https://github.com/htl-leonding-project/leo-code/issues?q=is%3Aissue+is%3Aopen+label%3Am-o-m[Meetings]
+
+
+
 == Index
 
 <<index.adoc#, Zurück zum Index>>
