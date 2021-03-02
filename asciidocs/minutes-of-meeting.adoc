@@ -17,4 +17,4 @@ endif::backend-html5[]
 
 == Index
 
-<<../index.adoc#, Zurück zum Index>>
+<<index.adoc#, Zurück zum Index>>

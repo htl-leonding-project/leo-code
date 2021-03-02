@@ -37,4 +37,4 @@ Wir sollen versuchen das Programm, welches wir bekommen haben zum Laufen zu brin
 
 == Minutes of Meeting
 
-<<minutes-of-meeting.adoc#, Zurück zu minutes of meeting>>
+<<minutes-of-meeting.adoc#, Zurück zu den Meetings>>

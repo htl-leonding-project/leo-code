@@ -41,4 +41,4 @@ Herr Prof. Stütz und Halil Bahar müssen noch mit dem Herr Prof. Aberger wegen 
 
 == Minutes of Meeting
 
-<<minutes-of-meeting.adoc#, Zurück zu minutes of meeting>>
+<<minutes-of-meeting.adoc#, Zurück zu den Meetings>>

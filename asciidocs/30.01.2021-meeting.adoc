@@ -40,4 +40,4 @@ Uns wurde vorgeschlagen, dass wir das Angular Project Layout benutzen und ein An
 
 == Minutes of Meeting
 
-<<minutes-of-meeting.adoc#, Zurück zu minutes of meeting>>
+<<minutes-of-meeting.adoc#, Zurück zu den Meetings>>
