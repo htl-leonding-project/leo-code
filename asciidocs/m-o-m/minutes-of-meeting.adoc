@@ -4,10 +4,8 @@ ifndef::imagesdir[:imagesdir: images]
 :toc: left
 
 ifdef::backend-html5[]
-
 icon:github-square[link=https://github.com/htl-leonding-project/leo-code]  ‏ ‏ ‎
 icon:home[link=https://htl-leonding-project.github.io/leo-code/]  ‏ ‏ ‎
-
 endif::backend-html5[]
 
 == Meetings

@@ -10,12 +10,10 @@ ifndef::imagesdir[:imagesdir: images]
 
 //Need this blank line after ifdef, don't know why...
 ifdef::backend-html5[]
-
 // https://fontawesome.com/v4.7.0/icons/
 icon:file-text-o[link=https://raw.githubusercontent.com/htl-leonding-project/leo-code/master/asciidocs/system-specification.adoc]  ‏ ‏ ‎
 icon:github-square[link=https://github.com/htl-leonding-project/leo-code]  ‏ ‏ ‎
 icon:home[link=https://htl-leonding-project.github.io/leo-code/]  ‏ ‏ ‎
-
 endif::backend-html5[]
 
 // print the toc here (not at the default position)
