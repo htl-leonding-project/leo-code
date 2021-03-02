@@ -121,21 +121,15 @@ image::Process-diagram-Student.jpeg[]
 image::Process-diagram-teacher.jpeg[]
 
 ==== UI for program
-Main View (alt! -> einfaches Login)
+Login View (alt! -> einfaches Login)
 
-image::mainView_UI.png[]
+image::leocode-login.png[]
 
-Student Hub View
+Code Editor View
 
-image::studentListView_UI.png[]
+image::theia-editor.png[]
 
-Student Upload View (alt! -> Abgabe und Testen durch Theia)
 
-image::uploadView.png[]
-
-Teacher Upload View (alt! -> neues mit Zipupload)
-
-image::uploadTeacherView.png[]
 
 === Ziele
 
