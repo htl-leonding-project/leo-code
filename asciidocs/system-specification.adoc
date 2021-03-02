@@ -1,6 +1,5 @@
 = LeoCode
 Besic Benjamin, Ignjatovic David, Raid Yimne, Spasenovic Bozidar
-1.0.0, 2020-11-17: Some notes
 ifndef::imagesdir[:imagesdir: images]
 //:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
 :sourcedir: ../src/main/java
@@ -12,9 +11,10 @@ ifndef::imagesdir[:imagesdir: images]
 ifdef::backend-html5[]
 
 // https://fontawesome.com/v4.7.0/icons/
-icon:file-text-o[link=https://raw.githubusercontent.com/htl-leonding-college/asciidoctor-docker-template/master/asciidocs/{docname}.adoc] ‏ ‏ ‎
-icon:github-square[link=https://github.com/htl-leonding-college/asciidoctor-docker-template] ‏ ‏ ‎
-icon:home[link=https://htl-leonding.github.io/]
+icon:file-text-o[link=https://raw.githubusercontent.com/htl-leonding-project/leo-code/master/asciidocs/system-specification.adoc]  ‏ ‏ ‎
+icon:github-square[link=https://github.com/htl-leonding-project/leo-code]  ‏ ‏ ‎
+icon:home[link=https://htl-leonding-project.github.io/leo-code/]  ‏ ‏ ‎
+
 endif::backend-html5[]
 
 // print the toc here (not at the default position)

@@ -1,8 +1,10 @@
-= Besprechungsprotokoll
-1.0, 2020-04-20
+= Besprechungsprotokolle
 ifndef::imagesdir[:imagesdir: images]
 :icons: font
 :toc: left
+
+icon:github-square[link=https://github.com/htl-leonding-project/leo-code]  ‏ ‏ ‎
+icon:home[link=https://htl-leonding-project.github.io/leo-code/]  ‏ ‏ ‎
 
 == Meetings
 
@@ -13,4 +15,4 @@ ifndef::imagesdir[:imagesdir: images]
 
 == Index
 
-<<index.adoc#, Zurück zum Index>>
+<<../index.adoc#, Zurück zum Index>>

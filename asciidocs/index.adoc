@@ -1,8 +1,11 @@
-= LeoCode
-:sourcedir: ../src/main/java
+= LeoCode Doc
 :icons: font
-:sectnums:    // Nummerierung der Überschriften / section numbering
+:sectnums:
 :toc: left
+
+icon:file-text-o[link=https://raw.githubusercontent.com/htl-leonding-project/leo-code/master/asciidocs/index.adoc]  ‏ ‏ ‎
+icon:github-square[link=https://github.com/htl-leonding-project/leo-code]  ‏ ‏ ‎
+icon:home[link=https://htl-leonding-project.github.io/leo-code/]  ‏ ‏ ‎
 
 == Projektbeschreibung
 
@@ -19,30 +22,28 @@ LeoCode ist eine Webanwendung die für Schüler der HTL Leonding entwickelt wird
 
 * <<project-order.adoc#, Project Order>> (Projektauftrag)
 * <<system-specification.adoc#, System Specification>> (Pflichtenheft)
-* <<minutes-of-meeting.adoc#, Minutes of meetings>> (Minutes of meetings)
+* <<m-o-m/minutes-of-meeting.adoc#, Minutes of meetings>> (Minutes of meetings)
 
-== Externe Projekt Repositorys
+== Projekt Repositories
 
-=== Leo Code UI mit Angular:
+Leo Code UI mit Angular:
 
-link:https://github.com/Musikfreunde/leo-code-frontend[Leo Code Angular aktuell]
+link:https://github.com/Musikfreunde/leo-code-frontend[Aktuelle Git-Repository für LeoCode]
 
-
-link:https://github.com/Musikfreunde/leocode-ui[Leo Code Angular alt]
-
-.Info
-NOTE: *Leo Code Angular old* wird nicht mehr verwendet
-
-=== Einfaches Angular-Quarkus Projekt zum Ausprobieren:
-
-link:https://github.com/Musikfreunde/leo-code-simple-button-test[Leo Code (Musikfreunde)]
-
-.Info
-NOTE: *Leo Code (Musikfreunde)* wird nicht mehr verwendet
-
+== Externe Projekt Repositories
 
 === Donnabauer Repos:
 
-link:https://github.com/donnabauerc/LeoCode[Leo Code (Donnabauer)]
+link:https://github.com/donnabauerc/LeoCode[Leo Code Git-Repository (Donnabauer)]
 
-link:https://github.com/donnabauerc/LeoCodeDocs[Leo Code (Donnabauer Docs)]
+link:https://github.com/donnabauerc/LeoCodeDocs[Leo Code Docs Git-Repository (Donnabauer)]
+
+== Repositories die nicht mehr verwendet werden
+
+=== Angular-Quarkus Testapp
+
+link:https://github.com/Musikfreunde/leo-code-simple-button-test[Leo Code (Musikfreunde)]
+
+
+.Info
+NOTE: Diese Repository war nur zum Testen gedacht und wird nicht mehr verwendet

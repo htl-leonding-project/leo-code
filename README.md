@@ -1,8 +1,8 @@
-# LeoCode
+# LeoCode Doc 
 
 ## Anmerkung 
 
-Github Pages:
+*Github Pages:*
 [Index](https://htl-leonding-project.github.io/leo-code)
 
 
@@ -17,7 +17,7 @@ LeoCode ist eine Webanwendung die für Schüler der HTL Leonding entwickelt wird
 * Yimne Raid
 * Bozidar Spasenovic
 
-## GH-pages
+## GH-pages commands
 
 1. ```.\part1.sh```
 

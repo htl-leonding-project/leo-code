@@ -4,6 +4,9 @@ ifndef::imagesdir[:imagesdir: images]
 :icons: font
 :toc: left
 
+icon:github-square[link=https://github.com/htl-leonding-project/leo-code]  ‏ ‏ ‎
+icon:home[link=https://htl-leonding-project.github.io/leo-code/]  ‏ ‏ ‎
+
 .Organisatorisches
 |===
 
@@ -37,6 +40,6 @@ Das gelernte sollen wir dann an unserem UI Anwenden.
 
 
 
-== Index
+== Minutes of Meeting
 
-<<index.adoc#, Zurück zum Index>>
+<<minutes-of-meeting.adoc#, Zurück zu minutes of meeting>>
