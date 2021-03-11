@@ -62,6 +62,7 @@ rectangle LeoCode{
 Teacher -- (publish coding tasks)
 Teacher -- (see current coding tasks)
 Teacher -- (edit coding tasks)
+Teacher -- (see anonymous stats)
 (edit coding tasks) .> (edit/create unit tests) : <<include>>
 
 Student -- (manage own coding tasks)
@@ -99,10 +100,12 @@ Der Professor hat die Möglichkeiten:
 
 * Aufgaben und Tests einzusehen (auf Freigabe des Schülers)
 
+* Anonyme Statistiken von Aufgaben (Anzahl erledigt,Anzahl geschafft ...)
 
 Ein Professor hat die Möglichkeit sich anzumelden.
 Falls der Professor einen Test für eine Klasse erstellt hat, kann er diesen ebenfalls veröffentlichen. +
 Nachdem der Schüler die Tests und Aufgaben absolviert hat, ist der Professor in der Lage sich diese anzuschauen, falls der Schüler es für den Lehrer freigibt.
+Dazu kann er die anonyme Statistik der Aufgaben einsehen.
 
 ==== Nichtfunktionale Anforderungen
 
