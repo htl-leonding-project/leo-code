@@ -56,19 +56,23 @@ Use-Case Diagramm
 
 left to right direction
 :Student:
-:Teacher:
+:Professor:
+:Guest:
 rectangle LeoCode{
 
-Teacher -- (publish coding tasks)
-Teacher -- (see current coding tasks)
-Teacher -- (edit coding tasks)
-Teacher -- (see anonymous stats)
+Professor -- (publish coding tasks)
+Professor -- (see current coding tasks)
+Professor -- (edit coding tasks)
+Professor -- (see anonymous stats)
 (edit coding tasks) .> (edit/create unit tests) : <<include>>
+
+Guest -up- (do coding task)
+Guest -up- (see unit test feedback)
 
 Student -- (manage own coding tasks)
 Student -- (do coding task)
 Student -- (see unit test feedback)
-Student -- (publish task feedback to teacher)
+Student -- (publish task feedback to Professor)
 
 }
 
@@ -91,7 +95,7 @@ Der Schüler hat die Möglichkeiten sich seine Aufgaben anzuschauen und die Aufg
 Noch dazu hat der Schüler auch Zugriff auf die vom Professor vorgefertigten Tests, die er auch absolvieren kann. +
 Zu den jeweiligen Aufgaben oder Tests bekommt jeder Schüler ein kleines Feedback, welches sich der Schüler jederzeit durchlesen kann.
 
-===== Use-Cases von der Lehrerperspektive:
+===== Use-Cases von der Professorperspektive:
 Der Professor hat die Möglichkeiten:
 
 * sich anzumelden
@@ -107,6 +111,16 @@ Falls der Professor einen Test für eine Klasse erstellt hat, kann er diesen ebe
 Nachdem der Schüler die Tests und Aufgaben absolviert hat, ist der Professor in der Lage sich diese anzuschauen, falls der Schüler es für den Lehrer freigibt.
 Dazu kann er die anonyme Statistik der Aufgaben einsehen.
 
+===== Use-Cases von der Gastperspektive:
+Der Gast hat die Möglichkeiten:
+
+* Aufgaben und Tests zu sehen
+
+* Aufgaben und Tests zu absolvieren
+
+Ein Gast-User hat begrenzte Möglichkeiten im Gegensatz zum Schüler und Professor.
+
+
 ==== Nichtfunktionale Anforderungen
 
 * Benutzerfreundlichkeit
@@ -119,9 +133,9 @@ Dazu kann er die anonyme Statistik der Aufgaben einsehen.
 
 * Wartbarkeit
 
-==== Process-diagram for the student and teacher
+==== Process-diagram for the student and Professor
 image::Process-diagram-Student.jpeg[]
-image::Process-diagram-teacher.jpeg[]
+image::Process-diagram-Teacher.jpeg[]
 
 ==== UI for program
 .*Login View*
