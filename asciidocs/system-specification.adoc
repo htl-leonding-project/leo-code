@@ -141,6 +141,9 @@ image::Process-diagram-Teacher.jpeg[]
 .*Login View*
 image::leocode-login.png[]
 
+.*Upload Teacher View*
+image::uploadTeacherView.png[]
+
 .*Code Editor View*
 image::theia-editor.png[]
 
