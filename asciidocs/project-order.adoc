@@ -35,10 +35,10 @@ Prof. Mag. Dr. Stütz
 == Projekthintergrund
 In der HTL Leonding wird besonders im Informatikzweig (zum Teil auch in den anderen Zweigen) auf praktische Programmierübung
 Wert gelegt. +
-Viele Schüler haben aber durch den Lehrplan nicht genug praktische Übung im Unterricht und kennen sich meistens nicht bei den Hausübungen aus. +
-Noch dazu haben die ersten Klassen öfters Probleme mit den IDE's. Meistens haben sie keinen Zugriff oder irgendetwas hat nicht funktioniert.
+Viele Schüler haben nicht genug praktische Übung im Unterricht und mangeln an den Basics (Simple Algorithmen zB.: Quersumme). +
+Noch dazu haben die ersten Klassen öfters Probleme mit den IDE's. Meistens haben sie keinen Zugriff oder andere Probleme.
 
-== Projektergebniss
+== Projektergebnis
 
 Das Ergebnis ist eine Webapp, wo die Schüler Java Coding-Übungen mit dazugehörigen Unit-Tests absolvieren können.
 
