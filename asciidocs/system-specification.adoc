@@ -136,7 +136,7 @@ Ein Gast-User hat begrenzte Möglichkeiten im Gegensatz zum Schüler und Profess
 ==== Process-diagram for the student and Professor
 image::Process-diagram-Student.jpeg[]
 
-image::Process-diagram-Teacher.jpeg[]
+image::Process-diagram-teacher.jpeg[]
 
 ==== UI for program
 .*Login View*
