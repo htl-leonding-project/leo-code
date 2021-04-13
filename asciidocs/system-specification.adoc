@@ -147,6 +147,9 @@ image::uploadTeacherView.png[]
 .*Code Editor View*
 image::theia-editor.png[]
 
+.*Student Report View*
+image::report-View.jpeg[]
+
 
 
 === Ziele
