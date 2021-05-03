@@ -59,7 +59,7 @@ left to right direction
 
 rectangle LeoCode{
 
-Professor -- (make coding tasks available)
+Professor -- (publish coding tasks)
 Professor -- (view current coding tasks)
 Professor -- (edit coding tasks)
 Professor -- (view anonymous stats)
@@ -88,7 +88,7 @@ Guest -up- (view unit test feedback)
 Student -- (manage own coding tasks)
 Student -- (do coding task)
 Student -- (view unit test feedback)
-Student -- (publish task feedback to Professor)
+Student -- (make task feedback available for Professor)
 
 }
 
