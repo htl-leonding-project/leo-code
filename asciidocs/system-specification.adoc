@@ -48,7 +48,7 @@ Zu entwickeln ist eine Plattform, die Folgendes kann:
 
 
 ==== Funktionale Anforderungen
-Use-Case Diagramm (Teacher)
+Use-Case Diagramm (Professor)
 [plantuml]
 ----
 
@@ -62,7 +62,7 @@ rectangle LeoCode{
 Professor -- (make coding tasks available)
 Professor -- (view current coding tasks)
 Professor -- (edit coding tasks)
-Professor -- (see anonymous stats)
+Professor -- (view anonymous stats)
 (edit coding tasks) .> (edit/create unit tests) : <<include>>
 
 }
@@ -83,11 +83,11 @@ rectangle LeoCode{
 
 
 Guest -up- (do coding task)
-Guest -up- (see unit test feedback)
+Guest -up- (view unit test feedback)
 
 Student -- (manage own coding tasks)
 Student -- (do coding task)
-Student -- (see unit test feedback)
+Student -- (view unit test feedback)
 Student -- (publish task feedback to Professor)
 
 }
