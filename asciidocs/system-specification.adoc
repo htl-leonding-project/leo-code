@@ -152,7 +152,7 @@ image::theia-editor.png[]
 image::report-View.jpeg[]
 
 .*Student Exercise View*
-image::studentListView_UI.png[]
+image::student-ex.jpeg[]
 
 === Ziele
 
