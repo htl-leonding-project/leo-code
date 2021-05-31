@@ -188,44 +188,9 @@ Die WebApp läuft über einen RestClient.
 Noch nicht vorgegeben
 
 === Systemarchitektur
-[plantuml]
-----
-@startuml
 
-node "<<not defined yet>>\nLeoCode Testing" as n1
+image::sys-arc.JPG[]
 
-node "<<quarkus>>\n LeoBackend" as n2
-
-node "<<nodeJS>>\n LeoGui" as n3
-
-node "<<angular>>\n Browser" as n4
-
-interface TestApi
-
-interface BackendApi
-
-interface GuiApi
-
-package Jenkins{
-[ProjectUnderTest]
-}
-
-package "local git-repo" as l1{
-[ProjectUnderTestRepo]
-}
-
-left to right direction
-ProjectUnderTest -u-> ProjectUnderTestRepo
-n1 --> l1
-n1 -r-> TestApi
-n2 .-l-> TestApi : use
-n2 -r-> BackendApi
-n3 .-l-> BackendApi : use
-n3 -r-> GuiApi
-n4 .-l-> GuiApi : use
-
-@enduml
-----
 == Projekthandbuch "Organisatorische Rahmenbedingungen"
 
 == Meilensteine
