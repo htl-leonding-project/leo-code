@@ -28,7 +28,7 @@ LeoCode ist eine Webanwendung die für Schüler der HTL Leonding entwickelt wird
 * <<minutes-of-meeting.adoc#, Minutes of meetings>> (Minutes of meetings)
 
 == Link zur VM
-link:vm147.htl-leonding.ac.at/[Link zur VM]
+link:http://vm147.htl-leonding.ac.at[Link zur VM]
 
 == Projekt Repositories
 
