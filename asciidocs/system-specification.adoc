@@ -159,7 +159,10 @@ image::Process-diagram-teacher.jpeg[]
 image::leocode-login.png[]
 
 .*Upload Teacher View*
-image::uploadTeacherView.png[]
+image::upload-teacher-view.png[]
+
+.*Teacher Example View*
+image::teacher-ex-view.jpeg[]
 
 .*Code Editor View*
 image::theia-editor.png[]
@@ -167,8 +170,16 @@ image::theia-editor.png[]
 .*Student Report View*
 image::report-View.jpeg[]
 
+.*Student Test Code View*
+image::test-code-view.jpeg[]
+
 .*Student Exercise View*
 image::student-ex.jpeg[]
+
+.*Student Detail View*
+image::detail-ex-view.jpeg[]
+
+
 
 === Ziele
 
