@@ -156,7 +156,7 @@ image::Process-diagram-teacher.jpeg[]
 
 ==== UI for program
 .*Login View*
-image::leocode-login.png[]
+image::login-view.JPG[]
 
 .*Upload Teacher View*
 image::upload-teacher-view.png[]
@@ -200,7 +200,7 @@ Noch nicht vorgegeben
 
 === Systemarchitektur
 
-image::sys-arc.JPG[]
+image::sys-arc.jpeg[]
 
 == Projekthandbuch "Organisatorische Rahmenbedingungen"
 
