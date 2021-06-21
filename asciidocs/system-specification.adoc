@@ -159,25 +159,25 @@ image::Process-diagram-teacher.jpeg[]
 image::login-view.JPG[]
 
 .*Upload Teacher View*
-image::upload-teacher-view.png[]
+image::teacher-create-view.JPG[]
 
 .*Teacher Example View*
-image::teacher-ex-view.jpeg[]
+image::teacher-ex-view.JPG[]
 
 .*Code Editor View*
 image::theia-editor.png[]
 
 .*Student Report View*
-image::report-View.jpeg[]
+image::students-report.JPG[]
 
 .*Student Test Code View*
-image::test-code-view.jpeg[]
+image::test-code-view.JPG[]
 
 .*Student Exercise View*
-image::student-ex.jpeg[]
+image::ex-view.JPG[]
 
 .*Student Detail View*
-image::detail-ex-view.jpeg[]
+image::detail-ex-view.JPG[]
 
 
 
