@@ -1,0 +1,47 @@
+= Besprechungsprotokoll
+1.0, 2020-12-21
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:toc: left
+
+ifdef::backend-html5[]
+icon:github-square[link=https://github.com/htl-leonding-project/leo-code]  ‏ ‏ ‎
+icon:home[link=https://htl-leonding-project.github.io/leo-code/]  ‏ ‏ ‎
+endif::backend-html5[]
+
+.Organisatorisches
+|===
+
+|Teilnehmer| Ignjatovic, Besic, Stütz, Gruber-Leitner, Spasenovic
+|Ort|Discord
+|Datum - Uhrzeit| 21.12.2020 - 14:30 Uhr
+|Dauer| 15 Minuten
+|===
+
+== Besprochene Themen
+
+Wir sollten ein Angular UI erstellen, mit der Angabe die wir von dem Christian bekommen haben.
+Noch dazu sollten wir einen Angular Kurs machen.
+
+.Stichwörter
+
+* Angular UI erstellen
+* Angular Kurs Basics
+* Angabe von Christian
+
+== Vereinbarungen und Entscheidungen
+
+Wir sind uns einig gewesen, dass wir ein Angular UI skizzieren. Den Kurs sollen wir in den Ferien machen, damit wir die Basics verstehen.
+Das gelernte sollen wir dann an unserem UI Anwenden.
+
+.Stichwörter:
+
+* Angular UI skizzieren
+* Kurs über Ferien fertigmachen
+* Gelerntes im Kurs auf unser Projekt anwenden
+
+
+
+== Minutes of Meeting
+
+<<minutes-of-meeting.adoc#, Zurück zu den Meetings>>

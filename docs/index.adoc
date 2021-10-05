@@ -1,0 +1,60 @@
+= LeoCode Doc
+:icons: font
+:sectnums:
+:toc: left
+:iconfont-cdn: path/to/fontawesome.css
+
+ifdef::backend-html5[]
+icon:file-text-o[link=https://raw.githubusercontent.com/htl-leonding-project/leo-code/master/asciidocs/index.adoc]  ‏ ‏ ‎
+icon:github-square[link=https://github.com/htl-leonding-project/leo-code]  ‏ ‏ ‎
+icon:home[link=https://htl-leonding-project.github.io/leo-code/]  ‏ ‏ ‎
+endif::backend-html5[]
+
+== Projektbeschreibung
+
+LeoCode ist eine Webanwendung die für Schüler der HTL Leonding entwickelt wird, um das Coding zu üben.
+
+== Team
+
+* Benjamin Besic
+* David Ignjatovic
+* Yimne Raid
+* Bozidar Spasenovic
+
+== Dokumente
+
+* <<project-order.adoc#, Project Order>> (Projektauftrag)
+* <<system-specification.adoc#, System Specification>> (Pflichtenheft)
+* <<minutes-of-meeting.adoc#, minutes of meetings>> (Minutes of meetings)
+* link:https://musikfreunde.github.io/asciidoctor-docker-slides/#/[asciidoctor-docker-slides] (Leocode Presentation Slides)
+
+== Link zur VM
+link:http://vm147.htl-leonding.ac.at[Link zur VM]
+
+== Projekt Repositories
+
+Leo Code UI mit Angular:
+
+link:https://github.com/Musikfreunde/leo-code-frontend[Aktuelles Git-Repository für das LeoCode-Frontend]
+
+Leo Code Backend:
+
+link:https://github.com/Musikfreunde/LeoCode[Aktuelles Git-Repository für das LeoCode-Backend]
+
+== Externe Projekt Repositories
+
+=== Donnabauer Repos:
+
+link:https://github.com/donnabauerc/LeoCode[Leo Code Git-Repository (Donnabauer)]
+
+link:https://github.com/donnabauerc/LeoCodeDocs[Leo Code Docs Git-Repository (Donnabauer)]
+
+== Repositories die nicht mehr verwendet werden
+
+=== Angular-Quarkus Testapp
+
+link:https://github.com/Musikfreunde/leo-code-simple-button-test[Leo Code (Musikfreunde)]
+
+
+.Wichtig
+NOTE: Diese Repository war nur zum Testen gedacht und wird nicht mehr verwendet
