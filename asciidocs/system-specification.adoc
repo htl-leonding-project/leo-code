@@ -200,7 +200,7 @@ Noch nicht vorgegeben
 
 === Systemarchitektur
 
-image::sys-arc.jpeg[]
+image::Systemarchitektur.JPG[]
 
 === Aktivitätsdiagramm
 
