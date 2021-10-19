@@ -204,7 +204,7 @@ image::sys-arc.jpeg[]
 
 === Aktivitätsdiagramm
 
-image::Aktivitätsdiagramm.JPG[]
+image::Aktivitätsdiagramm.JPG[Aktivitätsdiagramm]
 
 == Projekthandbuch "Organisatorische Rahmenbedingungen"
 
