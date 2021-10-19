@@ -14,7 +14,6 @@ LeoCode ist eine Webanwendung die für Schüler der HTL Leonding entwickelt wird
 
 * Benjamin Besic
 * David Ignjatovic
-* Yimne Raid
 * Bozidar Spasenovic
 
 ## GH-pages commands
