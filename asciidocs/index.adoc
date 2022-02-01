@@ -26,7 +26,6 @@ LeoCode ist eine Webanwendung die für Schüler der HTL Leonding entwickelt wird
 * <<system-specification.adoc#, System Specification>> (Pflichtenheft)
 * <<minutes-of-meeting.adoc#, Minutes of meetings>> (Minutes of meetings)
 * link:https://musikfreunde.github.io/asciidoctor-docker-slides/#/[asciidoctor-docker-slides] (Leocode Presentation Slides)
-* link:https://github.com/Musikfreunde/Leocode-Video[Leocode-Video Repository]
 
 == Link zur VM
 link:http://vm147.htl-leonding.ac.at[Link zur VM]
@@ -40,6 +39,11 @@ link:https://github.com/Musikfreunde/leo-code-frontend[Aktuelles Git-Repository 
 Leo Code Backend:
 
 link:https://github.com/Musikfreunde/LeoCode[Aktuelles Git-Repository für das LeoCode-Backend]
+
+Leo Code Video:
+
+* link:https://github.com/Musikfreunde/Leocode-Video[ktuelles Git-Repository für das LeoCode-Video]
+
 
 == Externe Projekt Repositories
 
