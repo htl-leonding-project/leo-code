@@ -42,7 +42,7 @@ link:https://github.com/Musikfreunde/LeoCode[Aktuelles Git-Repository für das L
 
 Leo Code Video:
 
-* link:https://github.com/Musikfreunde/Leocode-Video[ktuelles Git-Repository für das LeoCode-Video]
+link:https://github.com/Musikfreunde/Leocode-Video[Aktuelles Git-Repository für das LeoCode-Video]
 
 
 == Externe Projekt Repositories
