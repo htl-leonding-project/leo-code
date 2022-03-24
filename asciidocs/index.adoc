@@ -23,7 +23,7 @@ LeoCode ist eine Webanwendung die für Schüler der HTL Leonding entwickelt wird
 == Dokumente
 
 * <<project-order.adoc#, Project Order>> (Projektauftrag)
-* <<anleitung-leocode.adoc#, Leocode Instruction>> (Anleitung)
+* <<anleitung-leocode.adoc#, Leocode Anleitung>> (Anleitung)
 * <<system-specification.adoc#, System Specification>> (Pflichtenheft)
 * <<minutes-of-meeting.adoc#, Minutes of meetings>> (Minutes of meetings)
 * link:https://musikfreunde.github.io/asciidoctor-docker-slides/#/[asciidoctor-docker-slides] (Leocode Presentation Slides)
