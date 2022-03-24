@@ -1,0 +1,63 @@
+= Leocode Anleitung
+
+Was braucht man zum Erstellen eines Examples?
+
+
+* Anleitung des Examples in .md Format
+* gezipptes Maven Projekt mit
+** Unittests
+* Jenkiksfile
+```
+pipeline {
+    agent {
+        docker {
+            image 'maven:3-alpine'
+        }
+    }
+    stages {
+        stage('Test') {
+            steps {
+                sh 'mvn test'
+            }
+        }
+    }
+}
+```
+
+---
+Leocode findet man unter der URL: http://vm147.htl-leonding.ac.at/
+
+Man meldet sich mit einem Teacher-User ein.
+
+* besic-teacher
+* benjamin123
+
+Entweder mit dem _Create Example_-Button auf der Example Seite oder direk auf der Create Seite klicken um neues Example anlegen zu können.
+
+Name des Lehrers eintragen
+
+image::image-2022-03-24-14-47-25-172.png[]
+
+Name des Examples eintragen
+
+image::image-2022-03-24-14-48-31-474.png[]
+
+Den Typ setzt man auf Maven
+
+image::image-2022-03-24-14-58-39-981.png[]
+
+Die Anleitung einfügen
+
+image::image-2022-03-24-14-59-11-185.png[]
+
+Das gezippte Maven Projekt nach klicken auf den _Browse_-Button auswählen.
+
+image::image-2022-03-24-15-00-12-535.png[]
+
+Das Jenkinksfile nach klicken auf den _Browse_-Button auswählen
+
+image::image-2022-03-24-15-01-44-437.png[]
+
+
+Zum Schluss _Create Example_ drücken.
+
