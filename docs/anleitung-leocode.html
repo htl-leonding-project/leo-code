@@ -5,9 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.17">
-<meta name="author" content="1.0, 2021-01-30">
 <link rel="icon" type="image/png" href="themes/favicon.png">
-<title>Besprechungsprotokoll</title>
+<title>Leocode Anleitung</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -439,6 +438,221 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+pre.rouge table td { padding: 5px; }
+pre.rouge table pre { margin: 0; }
+pre.rouge .cm {
+  color: #999988;
+  font-style: italic;
+}
+pre.rouge .cp {
+  color: #999999;
+  font-weight: bold;
+}
+pre.rouge .c1 {
+  color: #999988;
+  font-style: italic;
+}
+pre.rouge .cs {
+  color: #999999;
+  font-weight: bold;
+  font-style: italic;
+}
+pre.rouge .c, pre.rouge .ch, pre.rouge .cd, pre.rouge .cpf {
+  color: #999988;
+  font-style: italic;
+}
+pre.rouge .err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+pre.rouge .gd {
+  color: #000000;
+  background-color: #ffdddd;
+}
+pre.rouge .ge {
+  color: #000000;
+  font-style: italic;
+}
+pre.rouge .gr {
+  color: #aa0000;
+}
+pre.rouge .gh {
+  color: #999999;
+}
+pre.rouge .gi {
+  color: #000000;
+  background-color: #ddffdd;
+}
+pre.rouge .go {
+  color: #888888;
+}
+pre.rouge .gp {
+  color: #555555;
+}
+pre.rouge .gs {
+  font-weight: bold;
+}
+pre.rouge .gu {
+  color: #aaaaaa;
+}
+pre.rouge .gt {
+  color: #aa0000;
+}
+pre.rouge .kc {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .kd {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .kn {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .kp {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .kr {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .kt {
+  color: #445588;
+  font-weight: bold;
+}
+pre.rouge .k, pre.rouge .kv {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .mf {
+  color: #009999;
+}
+pre.rouge .mh {
+  color: #009999;
+}
+pre.rouge .il {
+  color: #009999;
+}
+pre.rouge .mi {
+  color: #009999;
+}
+pre.rouge .mo {
+  color: #009999;
+}
+pre.rouge .m, pre.rouge .mb, pre.rouge .mx {
+  color: #009999;
+}
+pre.rouge .sa {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .sb {
+  color: #d14;
+}
+pre.rouge .sc {
+  color: #d14;
+}
+pre.rouge .sd {
+  color: #d14;
+}
+pre.rouge .s2 {
+  color: #d14;
+}
+pre.rouge .se {
+  color: #d14;
+}
+pre.rouge .sh {
+  color: #d14;
+}
+pre.rouge .si {
+  color: #d14;
+}
+pre.rouge .sx {
+  color: #d14;
+}
+pre.rouge .sr {
+  color: #009926;
+}
+pre.rouge .s1 {
+  color: #d14;
+}
+pre.rouge .ss {
+  color: #990073;
+}
+pre.rouge .s, pre.rouge .dl {
+  color: #d14;
+}
+pre.rouge .na {
+  color: #008080;
+}
+pre.rouge .bp {
+  color: #999999;
+}
+pre.rouge .nb {
+  color: #0086B3;
+}
+pre.rouge .nc {
+  color: #445588;
+  font-weight: bold;
+}
+pre.rouge .no {
+  color: #008080;
+}
+pre.rouge .nd {
+  color: #3c5d5d;
+  font-weight: bold;
+}
+pre.rouge .ni {
+  color: #800080;
+}
+pre.rouge .ne {
+  color: #990000;
+  font-weight: bold;
+}
+pre.rouge .nf, pre.rouge .fm {
+  color: #990000;
+  font-weight: bold;
+}
+pre.rouge .nl {
+  color: #990000;
+  font-weight: bold;
+}
+pre.rouge .nn {
+  color: #555555;
+}
+pre.rouge .nt {
+  color: #000080;
+}
+pre.rouge .vc {
+  color: #008080;
+}
+pre.rouge .vg {
+  color: #008080;
+}
+pre.rouge .vi {
+  color: #008080;
+}
+pre.rouge .nv, pre.rouge .vm {
+  color: #008080;
+}
+pre.rouge .ow {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .o {
+  color: #000000;
+  font-weight: bold;
+}
+pre.rouge .w {
+  color: #bbbbbb;
+}
+pre.rouge {
+  background-color: #f8f8f8;
+}
+</style>
+<style>
 pre.rouge .hll {
   background-color: #ffc;
 }
@@ -447,106 +661,127 @@ pre.rouge .hll * {
 }
 </style>
 </head>
-<body class="article toc2 toc-left">
+<body class="article">
 <div id="header">
-<h1>Besprechungsprotokoll</h1>
-<div class="details">
-<span id="author" class="author">1.0, 2021-01-30</span><br>
-</div>
-<div id="toc" class="toc2">
-<div id="toctitle">Table of Contents</div>
-<ul class="sectlevel1">
-<li><a href="#_besprochene_themen">1. Besprochene Themen</a></li>
-<li><a href="#_vereinbarungen_und_entscheidungen">2. Vereinbarungen und Entscheidungen</a></li>
-<li><a href="#_minutes_of_meeting">3. Minutes of Meeting</a></li>
-</ul>
-</div>
+<h1>Leocode Anleitung</h1>
 </div>
 <div id="content">
-<div id="preamble">
-<div class="sectionbody">
 <div class="paragraph">
-<p><span class="icon"><a class="image" href="https://github.com/htl-leonding-project/leo-code"><i class="fa fa-github-square"></i></a></span>  ‏ ‏ ‎
-<span class="icon"><a class="image" href="https://htl-leonding-project.github.io/leo-code/"><i class="fa fa-home"></i></a></span>  ‏ ‏ ‎</p>
-</div>
-<table class="tableblock frame-all grid-all stretch">
-<caption class="title">Table 1. Organisatorisches</caption>
-<colgroup>
-<col style="width: 50%;">
-<col style="width: 50%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Teilnehmer</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Besic, Bahar, Ignjatovic, Raid, Spasenovic</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Ort</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Discord</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Datum - Uhrzeit</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">30.01.21 17:00</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Dauer</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">1 Stunde</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_besprochene_themen"><a class="anchor" href="#_besprochene_themen"></a>1. Besprochene Themen</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Wir haben besprochen das wir unser Angular Projekt nicht mehr verwenden sollen und dafür ein neues erstellen mit einer besseren Struktur.
-Die Struktur wird fur den Theia Editor verwendet. Das Frontend Layout sollte mit einem Login funktionieren und wir sollten noch eine Navbar hinzufügen.
-Noch dazu müssen wir das Upload ändern, weil wir ein Zipiupload brauchen.</p>
+<p>Was braucht man zum Erstellen eines Examples?</p>
 </div>
 <div class="ulist">
-<div class="title">Stichwörter</div>
 <ul>
 <li>
-<p>Neues Angular Project mit entsprechender Struktur <a href="https://itnext.io/choosing-a-highly-scalable-folder-structure-in-angular-d987de65ec7" class="bare">https://itnext.io/choosing-a-highly-scalable-folder-structure-in-angular-d987de65ec7</a><br></p>
+<p>Anleitung des Examples in .md Format</p>
 </li>
 <li>
-<p>Theia Online Editor einbauen</p>
-</li>
+<p>gezipptes Maven Projekt mit</p>
+<div class="ulist">
+<ul>
 <li>
-<p>Neues Frontend Layout mit Login, Navbar, Zipupload</p>
-</li>
-<li>
-<p>Angular üben (Routing etc.)</p>
+<p>Unittests</p>
 </li>
 </ul>
 </div>
+</li>
+<li>
+<p>Jenkiksfile</p>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="rouge highlight"><code>pipeline {
+    agent {
+        docker {
+            image 'maven:3-alpine'
+        }
+    }
+    stages {
+        stage('Test') {
+            steps {
+                sh 'mvn test'
+            }
+        }
+    }
+}</code></pre>
 </div>
 </div>
-<div class="sect1">
-<h2 id="_vereinbarungen_und_entscheidungen"><a class="anchor" href="#_vereinbarungen_und_entscheidungen"></a>2. Vereinbarungen und Entscheidungen</h2>
-<div class="sectionbody">
+<hr>
 <div class="paragraph">
-<p>Wir sollten mit dem Herr Prof. Stuetz sprechen was unsere Nächsten schritte sind und das dann machen.
-Uns wurde vorgeschlagen, dass wir das Angular Project Layout benutzen und ein Angular Tutorial machen.
-* Besprechung mit Prof. Stütz
-* Angular Project Layout benutzen
-* Angular Tutorial <a href="https://angular.io/tutorial" class="bare">https://angular.io/tutorial</a></p>
+<p>Leocode findet man unter der URL: <a href="http://vm147.htl-leonding.ac.at/" class="bare">http://vm147.htl-leonding.ac.at/</a></p>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_minutes_of_meeting"><a class="anchor" href="#_minutes_of_meeting"></a>3. Minutes of Meeting</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p><a href="minutes-of-meeting.html">Zurück zu den Meetings</a></p>
+<p>Man meldet sich mit einem Teacher-User ein.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>besic-teacher</p>
+</li>
+<li>
+<p>benjamin123</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Entweder mit dem <em>Create Example</em>-Button auf der Example Seite oder direk auf der Create Seite klicken um neues Example anlegen zu können.</p>
+</div>
+<div class="paragraph">
+<p>Name des Lehrers eintragen</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/image-2022-03-24-14-47-25-172.png" alt="image 2022 03 24 14 47 25 172">
 </div>
 </div>
+<div class="paragraph">
+<p>Name des Examples eintragen</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/image-2022-03-24-14-48-31-474.png" alt="image 2022 03 24 14 48 31 474">
+</div>
+</div>
+<div class="paragraph">
+<p>Den Typ setzt man auf Maven</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/image-2022-03-24-14-58-39-981.png" alt="image 2022 03 24 14 58 39 981">
+</div>
+</div>
+<div class="paragraph">
+<p>Die Anleitung einfügen</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/image-2022-03-24-14-59-11-185.png" alt="image 2022 03 24 14 59 11 185">
+</div>
+</div>
+<div class="paragraph">
+<p>Das gezippte Maven Projekt nach klicken auf den <em>Browse</em>-Button auswählen.</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/image-2022-03-24-15-00-12-535.png" alt="image 2022 03 24 15 00 12 535">
+</div>
+</div>
+<div class="paragraph">
+<p>Das Jenkinksfile nach klicken auf den <em>Browse</em>-Button auswählen</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/image-2022-03-24-15-01-44-437.png" alt="image 2022 03 24 15 01 44 437">
+</div>
+</div>
+<div class="paragraph">
+<p>Zum Schluss <em>Create Example</em> drücken.</p>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-03-24 14:15:36 UTC
+Last updated 2022-03-24 14:12:12 UTC
 </div>
 </div>
 </body>
