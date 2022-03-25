@@ -34,29 +34,17 @@ Man meldet sich mit einem Teacher-User ein.
 
 Entweder mit dem _Create Example_-Button auf der Example Seite oder direk auf der Create Seite klicken um neues Example anlegen zu können.
 
-Name des Lehrers eintragen
+* Name des Lehrers eintragen
 
-image::image-2022-03-24-14-47-25-172.png[]
+* Name des Examples eintragen
 
-Name des Examples eintragen
+* Den Typ setzt man auf Maven
 
-image::image-2022-03-24-14-48-31-474.png[]
+* Die Anleitung einfügen
 
-Den Typ setzt man auf Maven
+* Das gezippte Maven Projekt nach klicken auf den _Browse_-Button auswählen.
 
-image::image-2022-03-24-14-58-39-981.png[]
-
-Die Anleitung einfügen
-
-image::image-2022-03-24-14-59-11-185.png[]
-
-Das gezippte Maven Projekt nach klicken auf den _Browse_-Button auswählen.
-
-image::image-2022-03-24-15-00-12-535.png[]
-
-Das Jenkinksfile nach klicken auf den _Browse_-Button auswählen
-
-image::image-2022-03-24-15-01-44-437.png[]
+* Das Jenkinksfile nach klicken auf den _Browse_-Button auswählen
 
 
 Zum Schluss _Create Example_ drücken.
