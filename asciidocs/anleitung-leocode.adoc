@@ -1,6 +1,6 @@
 = Leocode Anleitung
 
-== Was braucht man zum Erstellen eines Examples?
+== Was braucht man zum erstellen eines Examples?
 
 
 * Anleitung des Examples in .md Format
