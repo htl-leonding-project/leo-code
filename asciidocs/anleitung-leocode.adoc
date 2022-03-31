@@ -1,6 +1,6 @@
 = Leocode Anleitung
 
-Was braucht man zum Erstellen eines Examples?
+== Was braucht man zum Erstellen eines Examples?
 
 
 * Anleitung des Examples in .md Format
@@ -48,4 +48,3 @@ Entweder mit dem _Create Example_-Button auf der Example Seite oder direk auf de
 
 
 Zum Schluss _Create Example_ drücken.
-
