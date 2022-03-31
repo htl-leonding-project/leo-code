@@ -27,11 +27,14 @@ pipeline {
 ---
 Leocode findet man unter der URL: http://vm147.htl-leonding.ac.at/
 
+== Anmelden
 Man meldet sich mit einem Teacher-User ein.
 
 * besic-teacher
 * benjamin123
 
+
+== Create Example
 Entweder mit dem _Create Example_-Button auf der Example Seite oder direk auf der Create Seite klicken um neues Example anlegen zu können.
 
 * Name des Lehrers eintragen
